@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
     "target": "ES2021",
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "lib": ["ESNext"],
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "dist",        // ✅ Needed for Vercel to see a build result
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "strict": false,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "strict": true
   },
-  "include": ["src", "scripts"]
+  "include": ["src"]
 }

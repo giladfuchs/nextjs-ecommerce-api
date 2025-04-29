@@ -19,8 +19,11 @@ DB.initialize()
     });
 
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow your frontend
-  credentials: true // Optional: if you want cookies later
+  origin: [
+    'http://localhost:3000',
+    'https://yaara-tau.vercel.app'
+  ],
+  credentials: true
 }));
 app.get('/data', async (req, res) => {
   try {

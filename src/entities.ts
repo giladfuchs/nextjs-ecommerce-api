@@ -10,62 +10,62 @@ import {
 @Entity()
 export class Collection {
     @PrimaryGeneratedColumn()
-    id: number;
+    id!: number;
 
     @Column("varchar")
-    title: string;
+    title!: string;
 
     @Column("varchar", { unique: true })
-    handle: string;
+    handle!: string;
 
     @Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })
-    updatedAt: Date;
+    updatedAt!: Date;
 }
 
 @Entity()
 export class Product {
     @PrimaryGeneratedColumn()
-    id: number;
+    id!: number;
 
     @Column("varchar", { unique: true })
-    handle: string;
+    handle!: string;
 
     @Column("varchar")
-    collection: string;
+    collection!: string;
 
     @Column("boolean")
-    availableForSale: boolean;
+    availableForSale!: boolean;
 
     @Column("varchar")
-    title: string;
+    title!: string;
 
     @Column("text")
-    description: string;
+    description!: string;
 
     @Column("numeric")
-    price: number;
+    price!: number;
 
     @Column({ type: "timestamp", default: () => "CURRENT_TIMESTAMP" })
-    updatedAt: Date;
+    updatedAt!: Date;
 
     @OneToMany(() => ProductImage, (image) => image.product)
-    images: ProductImage[];
+    images!: ProductImage[];
 }
 
 @Entity()
 export class ProductImage {
     @PrimaryGeneratedColumn()
-    id: number;
+    id!: number;
 
     @Column("varchar")
-    url: string;
+    url!: string;
 
     @Column("varchar")
-    altText: string;
+    altText!: string;
 
     @ManyToOne(() => Product, (product) => product.images, {
         onDelete: "CASCADE",
     })
     @JoinColumn({ name: "product_id" })
-    product: Product;
+    product!: Product;
 }

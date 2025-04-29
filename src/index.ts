@@ -1,8 +1,8 @@
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import express, { Request, Response } from 'express';
 import cors from 'cors';
-import { DB } from '../db';
-import { Product, Collection } from '../entities';
+import { DB } from './db';
+import { Product, Collection } from './entities';
 
 const app = express();
 
@@ -47,7 +47,7 @@ app.get('/data', async (req: Request, res: Response) => {
       };
     });
 
-    const formattedCollections = collections.map((collection) => ({
+    const formattedCollections = collections.map((collection:Collection) => ({
       handle: collection.handle,
       title: collection.title,
       updatedAt: collection.updatedAt

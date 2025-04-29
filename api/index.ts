@@ -18,7 +18,11 @@ app.use(
 
 let initialized = false;
 
-app.get('/', async (req: Request, res: Response) => {
+app.get('/check', async (req: Request, res: Response) => {
+    res.json({ message: "its work" });
+
+})
+app.get('/data', async (req: Request, res: Response) => {
     try {
         if (!initialized) {
             await DB.initialize();

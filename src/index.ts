@@ -5,19 +5,23 @@ import { DB } from './db';
 import { Product, Collection } from './entities';
 
 const app = express();
-
-app.use(
-    cors({
-      origin: [
-        'http://localhost:3000',
-        'https://yaara-tau.vercel.app'
-      ],
-      credentials: true
-    })
-);
+app.use(cors());
+// app.use(
+//     cors({
+//         origin: [
+//             'http://localhost:3000',
+//             'https://yaara-tau.vercel.app'
+//         ],
+//         credentials: true
+//     })
+// );
 
 let initialized = false;
 
+app.get('/check', async (req: Request, res: Response) => {
+  res.json({ message: "its work" });
+
+})
 app.get('/data', async (req: Request, res: Response) => {
   try {
     if (!initialized) {

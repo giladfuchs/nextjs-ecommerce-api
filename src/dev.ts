@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
-import { Product, Collection } from '../entities';
-import { DB } from '../db';
+import { Product, Collection } from './entities';
+import { DB } from './db';
 
 const app = express();
 

@@ -1,21 +1,24 @@
-import express from 'express';
+import { VercelRequest, VercelResponse } from '@vercel/node';
+import express, { Request, Response } from 'express';
 import cors from 'cors';
-import { Product, Collection } from './entities';
-import { DB } from './db';
+import { DB } from '../db';
+import { Product, Collection } from '../entities';
 
 const app = express();
 
-app.use(cors({
-  origin: [
-    'http://localhost:3000',
-    'https://yaara-tau.vercel.app'
-  ],
-  credentials: true
-}));
+app.use(
+    cors({
+      origin: [
+        'http://localhost:3000',
+        'https://yaara-tau.vercel.app'
+      ],
+      credentials: true
+    })
+);
 
 let initialized = false;
 
-app.get('/data', async (req, res) => {
+app.get('/data', async (req: Request, res: Response) => {
   try {
     if (!initialized) {
       await DB.initialize();
@@ -27,7 +30,7 @@ app.get('/data', async (req, res) => {
       DB.getRepository(Collection).find()
     ]);
 
-    const formattedProducts = products.map((product:Product) => {
+    const formattedProducts = products.map((product: Product) => {
       const images = product.images ?? [];
       return {
         id: product.id,
@@ -57,4 +60,7 @@ app.get('/data', async (req, res) => {
   }
 });
 
-export default app;
+// ✅ THIS IS WHAT VERCEL NEEDS
+export default function handler(req: VercelRequest, res: VercelResponse) {
+  app(req as any, res as any);
+}

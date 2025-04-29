@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "lib": ["ESNext"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": false,
+    "skipLibCheck": true
+  },
+  "include": ["src", "scripts"]
+}

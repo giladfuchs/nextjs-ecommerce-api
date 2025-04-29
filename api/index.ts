@@ -5,16 +5,16 @@ import { DB } from '../src/db';
 import { Product, Collection } from '../src/entities';
 
 const app = express();
-
-app.use(
-    cors({
-        origin: [
-            'http://localhost:3000',
-            'https://yaara-tau.vercel.app'
-        ],
-        credentials: true
-    })
-);
+app.use(cors());
+// app.use(
+//     cors({
+//         origin: [
+//             'http://localhost:3000',
+//             'https://yaara-tau.vercel.app'
+//         ],
+//         credentials: true
+//     })
+// );
 
 let initialized = false;
 

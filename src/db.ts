@@ -1,13 +1,11 @@
 import dotenv from 'dotenv';
 import {DataSource, DataSourceOptions} from 'typeorm';
-import path from 'path';
+import {Collection, Product, ProductImage} from './entities';
+import { Request, Response, NextFunction } from 'express';
 
 dotenv.config();
 
-// Production-safe fallback
-const isProd = process.env.NODE_ENV === 'production';
-
-const options: DataSourceOptions = {
+export const DB = new DataSource({
     type: 'postgres',
     host: process.env.DB_HOST,
     port: parseInt(process.env.DB_PORT || '5432'),
@@ -16,32 +14,23 @@ const options: DataSourceOptions = {
     database: process.env.DB_NAME,
     synchronize: true,
     logging: false,
-    entities: isProd
-        ? [path.join(__dirname, '/entities/*.js')] // 👈 fallback for compiled Vercel build
-        : [require('./entities').Product, require('./entities').Collection, require('./entities').ProductImage], // local dev: classes directly
-} as DataSourceOptions;
+    entities: [Product, Collection, ProductImage],
+} as DataSourceOptions);
 
-export const DB = new DataSource(options);
 
-let initializing: Promise<void> | null = null;
 let initialized = false;
 
-async function initDB() {
-    if (!initialized && !initializing) {
-        initializing = DB.initialize()
-            .then(() => {
-                initialized = true;
-                console.log('✅ DB initialized');
-            })
-            .catch((err) => {
-                console.error('❌ DB init failed:', err);
-                throw err;
-            });
+export async function initDBMiddleware(req: Request, res: Response, next: NextFunction) {
+    try {
+        if (!initialized) {
+            await DB.initialize();
+            initialized = true;
+            console.log('✅ DB initialized (via middleware)');
+        }
+        next();
+    } catch (err) {
+        console.error('❌ DB initialization error:', err);
+        res.status(500).json({ error: 'Database initialization failed' });
     }
-
-    return initializing;
 }
 
-initDB().catch(() => {
-    // fail silently
-});

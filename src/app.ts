@@ -1,6 +1,7 @@
 import express  from 'express';
 import cors from 'cors';
 import routes from "./routes";
+import {initDBMiddleware} from "./db";
 
 const app = express();
 app.use(cors());
@@ -14,6 +15,7 @@ app.use(cors());
 //     })
 // );
 
+app.use(initDBMiddleware);
 app.use('/', routes);
 
 export default app

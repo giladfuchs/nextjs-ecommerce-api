@@ -6,12 +6,10 @@ import {DataSource} from "typeorm";
 import mockData from "./mock_products.json";
 import {Product, ProductImage, Collection} from "../src/entities";
 import {DB} from "../src/db";
+import {title_to_handle} from "../src/util";
 
 
-export function title_to_handle(title: string): string {
-    const handle = title.trim().replace(/\s+/g, '-'); // Replace spaces with dash
-    return handle
-}
+
 async function resetTables() {
     const em = DB.manager;
     console.log("🧨 Deleting existing data...");

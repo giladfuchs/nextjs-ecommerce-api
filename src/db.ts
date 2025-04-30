@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import {DataSource, DataSourceOptions} from 'typeorm';
-import {Collection, Product, ProductImage} from './entities';
+import {Product, Collection, ProductImage} from './entities';
 
 dotenv.config();
 
@@ -16,11 +16,26 @@ export const DB = new DataSource({
     entities: [Product, Collection, ProductImage],
 } as DataSourceOptions);
 
-// Immediately initialize it
-DB.initialize()
-    .then(() => {
-        console.log('✅ Database initialized');
-    })
-    .catch((err) => {
-        console.error('❌ Error during DB initialization', err);
-    });
+let initializing: Promise<void> | null = null;
+let initialized = false;
+
+async function initDB() {
+    if (!initialized && !initializing) {
+        initializing = DB.initialize()
+            .then(() => {
+                initialized = true;
+                console.log('✅ DB initialized');
+            })
+            .catch((err) => {
+                console.error('❌ DB init failed:', err);
+                throw err;
+            });
+    }
+
+    return initializing;
+}
+
+// Automatically trigger initialization (cold start)
+initDB().catch(() => {
+    /* Fail silently in dev. Vercel will retry */
+});

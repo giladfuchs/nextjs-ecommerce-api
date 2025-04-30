@@ -1,9 +1,10 @@
 import { Request, Response, Router } from 'express';
 import { DB } from '../db';
 import {Product, Collection, OrderItem, Order} from '../entities';
+import authRouter from './auth';
 
 const router = Router();
-
+router.use('/auth', authRouter);
 router.get('/check', async (req: Request, res: Response) => {
     res.json({ message: "it's working" });
 });

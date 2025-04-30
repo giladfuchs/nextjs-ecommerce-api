@@ -1,10 +1,13 @@
 import dotenv from 'dotenv';
 import {DataSource, DataSourceOptions} from 'typeorm';
-import {Product, Collection, ProductImage} from './entities';
+import path from 'path';
 
 dotenv.config();
 
-export const DB = new DataSource({
+// Production-safe fallback
+const isProd = process.env.NODE_ENV === 'production';
+
+const options: DataSourceOptions = {
     type: 'postgres',
     host: process.env.DB_HOST,
     port: parseInt(process.env.DB_PORT || '5432'),
@@ -13,8 +16,12 @@ export const DB = new DataSource({
     database: process.env.DB_NAME,
     synchronize: true,
     logging: false,
-    entities: [Product, Collection, ProductImage],
-} as DataSourceOptions);
+    entities: isProd
+        ? [path.join(__dirname, '/entities/*.js')] // 👈 fallback for compiled Vercel build
+        : [require('./entities').Product, require('./entities').Collection, require('./entities').ProductImage], // local dev: classes directly
+} as DataSourceOptions;
+
+export const DB = new DataSource(options);
 
 let initializing: Promise<void> | null = null;
 let initialized = false;
@@ -35,7 +42,6 @@ async function initDB() {
     return initializing;
 }
 
-// Automatically trigger initialization (cold start)
 initDB().catch(() => {
-    /* Fail silently in dev. Vercel will retry */
+    // fail silently
 });

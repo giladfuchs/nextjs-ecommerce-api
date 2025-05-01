@@ -1,21 +1,21 @@
-import { Request, Response, Router } from 'express';
-import { DB } from '../db';
+import {Request, Response, Router} from 'express';
+import {DB} from '../db';
 import {Product, Collection, OrderItem, Order} from '../entities';
 import authRouter from './auth';
 
 const router = Router();
 router.use('/auth', authRouter);
 router.get('/check', async (req: Request, res: Response) => {
-    res.json({ message: "it's working" });
+    res.json({message: "it's working"});
 });
 
 
 router.post('/checkout', async (req: Request, res: Response) => {
     try {
-        const { name, email, phone, cart } = req.body;
+        const {name, email, phone, cart} = req.body;
 
         if (!cart || !Array.isArray(cart.lines)) {
-            return res.status(400).json({ error: 'Invalid cart' });
+            return res.status(400).json({error: 'Invalid cart'});
         }
 
         const order = new Order();
@@ -43,36 +43,27 @@ router.post('/checkout', async (req: Request, res: Response) => {
         res.status(201).json(savedOrder);
     } catch (err) {
         console.error('❌ Failed to save order:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({error: 'Internal Server Error'});
     }
 });
 router.get('/data', async (req: Request, res: Response) => {
     try {
         const [products, collections] = await Promise.all([
-            DB.getRepository(Product).find({ relations: ['images'] }),
-            DB.getRepository(Collection).find({ order: { position: 'ASC' } }),
+            DB.getRepository(Product).find({relations: ['images']}),
+            DB.getRepository(Collection).find({order: {position: 'ASC'}}),
         ]);
 
         const formattedProducts = products.map((product: Product) => {
-            const images = product.images ?? [];
             return {
-                id: product.id,
-                handle: product.handle,
-                collection: product.collection,
-                available: product.available,
-                title: product.title,
-                description: product.description,
-                price: product.price.toString(),
-                featuredImage: images[0] || null,
-                images,
-                updatedAt: product.updatedAt,
+                ...product,
+                featuredImage: product.images[0],
             };
         });
 
-        res.json({ products: formattedProducts, collections });
+        res.json({products: formattedProducts, collections});
     } catch (err) {
         console.error('❌ Failed to fetch data:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({error: 'Internal Server Error'});
     }
 });
 

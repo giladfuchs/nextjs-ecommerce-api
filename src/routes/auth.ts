@@ -1,6 +1,6 @@
 import {Request, Response, Router} from 'express';
 import {DB} from '../db';
-import {Product, Collection, ProductImage} from '../entities';
+import {Product, Collection, ProductImage, Order} from '../entities';
 
 const router = Router();
 
@@ -12,7 +12,19 @@ const modelMap = {
 
 import {ProductImage} from '../entities';
 import {title_to_handle} from "../util";
+router.get('/orders', async (req: Request, res: Response) => {
+    try {
+        const orders = await DB.getRepository(Order).find({
+            relations: ['items'], // adjust if your relation is named differently
+            order: { createdAt: 'DESC' },
+        });
 
+        res.json(orders);
+    } catch (err) {
+        console.error('❌ Failed to fetch orders:', err);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
 router.post('/:model/:add_or_id', async (req: Request, res: Response) => {
     try {
         const {model, add_or_id} = req.params;

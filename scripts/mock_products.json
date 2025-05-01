@@ -1,3670 +1,386 @@
 {
   "products": [
     {
-      "handle": "פוטוס-מטפס",
-      "collection": "צמחי-חוץ",
-      "title": "פוטוס מטפס",
-      "description": "המוצר 'פוטוס מטפס' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/702/500/500.jpg?hmac=Vx3nDdH_TS0YZcPJWC9zupKhgGs16tnotvBoKarezIY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 1"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/702/500/500.jpg?hmac=Vx3nDdH_TS0YZcPJWC9zupKhgGs16tnotvBoKarezIY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 1"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/793/500/500.jpg?hmac=yWqdylJuP1XPGkbnmKzLlxSGnEzPNvIb550BLgT_8ug",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 1"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/978/500/500.jpg?hmac=PKHDaLr6KxqX3dsaA4hn27gNffdB0XRk2pAqaPc1HJM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 1"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/979/500/500.jpg?hmac=APiz6C4YsDCixjtANGUI8prcgf-UolUFdkcoFkNSPfI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 1"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-1",
-      "price":"52.55"
-    },
-    {
-      "handle": "סוקולנט-ירוק",
-      "collection": "צמחי-חוץ",
-      "title": "סוקולנט ירוק",
-      "description": "המוצר 'סוקולנט ירוק' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/793/500/500.jpg?hmac=yWqdylJuP1XPGkbnmKzLlxSGnEzPNvIb550BLgT_8ug",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 2"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/793/500/500.jpg?hmac=yWqdylJuP1XPGkbnmKzLlxSGnEzPNvIb550BLgT_8ug",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 2"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/978/500/500.jpg?hmac=PKHDaLr6KxqX3dsaA4hn27gNffdB0XRk2pAqaPc1HJM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 2"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/979/500/500.jpg?hmac=APiz6C4YsDCixjtANGUI8prcgf-UolUFdkcoFkNSPfI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 2"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-2",
-      "price":"67.65"
-    },
-    {
-      "handle": "קקטוס-קטן",
-      "collection": "עציצים-ואדניות",
-      "title": "קקטוס קטן",
-      "description": "המוצר 'קקטוס קטן' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/978/500/500.jpg?hmac=PKHDaLr6KxqX3dsaA4hn27gNffdB0XRk2pAqaPc1HJM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 3"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/978/500/500.jpg?hmac=PKHDaLr6KxqX3dsaA4hn27gNffdB0XRk2pAqaPc1HJM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 3"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/979/500/500.jpg?hmac=APiz6C4YsDCixjtANGUI8prcgf-UolUFdkcoFkNSPfI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 3"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/506/500/500.jpg?hmac=BYrIaxLp-KtrJuj8yi-NqJw-tWEyGrponrzphcgZnj8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 3"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-3",
-      "price":"31.31"
-    },
-    {
-      "handle": "אדנית-קרמית",
-      "collection": "כלי-גינון",
-      "title": "אדנית קרמית",
-      "description": "המוצר 'אדנית קרמית' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/979/500/500.jpg?hmac=APiz6C4YsDCixjtANGUI8prcgf-UolUFdkcoFkNSPfI",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 4"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/979/500/500.jpg?hmac=APiz6C4YsDCixjtANGUI8prcgf-UolUFdkcoFkNSPfI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 4"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/506/500/500.jpg?hmac=BYrIaxLp-KtrJuj8yi-NqJw-tWEyGrponrzphcgZnj8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 4"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/260/500/500.jpg?hmac=KrCyDoFtAZ6bfs9TSpN-cySHgOentnXIBcRCBbqstHQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 4"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-4",
-      "price":"35.42"
-    },
-    {
-      "handle": "דשן-לצמיחה",
-      "collection": "עשבי-תיבול",
-      "title": "דשן לצמיחה",
-      "description": "המוצר 'דשן לצמיחה' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/506/500/500.jpg?hmac=BYrIaxLp-KtrJuj8yi-NqJw-tWEyGrponrzphcgZnj8",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 5"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/506/500/500.jpg?hmac=BYrIaxLp-KtrJuj8yi-NqJw-tWEyGrponrzphcgZnj8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 5"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/260/500/500.jpg?hmac=KrCyDoFtAZ6bfs9TSpN-cySHgOentnXIBcRCBbqstHQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 5"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-5",
-      "price":"131.63"
-    },
-    {
-      "handle": "כלי-שתילה-מעוצב",
-      "collection": "עשבי-תיבול",
-      "title": "כלי שתילה מעוצב",
-      "description": "המוצר 'כלי שתילה מעוצב' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/260/500/500.jpg?hmac=KrCyDoFtAZ6bfs9TSpN-cySHgOentnXIBcRCBbqstHQ",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 6"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/260/500/500.jpg?hmac=KrCyDoFtAZ6bfs9TSpN-cySHgOentnXIBcRCBbqstHQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 6"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/499/500/500.jpg?hmac=D-I77qFVEma5D99kB4nYUGZTTNCViQjnoq7o4Da6J2g",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 6"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/313/500/500.jpg?hmac=AuvZHwM0VDJc6Gw7BIRkIO02v2abNgDbRWX40UjiORg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 6"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/797/500/500.jpg?hmac=NWRKOEOrKLNHbNC4jvtk2sabKk9I15LUlswiImh7o0Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 6"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/881/500/500.jpg?hmac=8qhn5AvId5cvKckdKIbLzN_S9nQjvx0RIquHtt8RPIM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 6"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-6",
-      "price":"50.08"
-    },
-    {
-      "handle": "סט-כלים-לגינון",
-      "collection": "צמחי-בית",
-      "title": "סט כלים לגינון",
-      "description": "המוצר 'סט כלים לגינון' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/499/500/500.jpg?hmac=D-I77qFVEma5D99kB4nYUGZTTNCViQjnoq7o4Da6J2g",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 7"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/499/500/500.jpg?hmac=D-I77qFVEma5D99kB4nYUGZTTNCViQjnoq7o4Da6J2g",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 7"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/313/500/500.jpg?hmac=AuvZHwM0VDJc6Gw7BIRkIO02v2abNgDbRWX40UjiORg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 7"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/797/500/500.jpg?hmac=NWRKOEOrKLNHbNC4jvtk2sabKk9I15LUlswiImh7o0Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 7"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/881/500/500.jpg?hmac=8qhn5AvId5cvKckdKIbLzN_S9nQjvx0RIquHtt8RPIM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 7"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/830/500/500.jpg?hmac=KC35WCb0_sG3NNDb9rNSm_LAmswJ8RohbTwuNZ0p4oI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 7"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-7",
-      "price":"71.13"
-    },
-    {
-      "handle": "נענע-טרייה",
-      "collection": "צמחי-בית",
-      "title": "נענע טרייה",
-      "description": "המוצר 'נענע טרייה' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/313/500/500.jpg?hmac=AuvZHwM0VDJc6Gw7BIRkIO02v2abNgDbRWX40UjiORg",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 8"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/313/500/500.jpg?hmac=AuvZHwM0VDJc6Gw7BIRkIO02v2abNgDbRWX40UjiORg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 8"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/797/500/500.jpg?hmac=NWRKOEOrKLNHbNC4jvtk2sabKk9I15LUlswiImh7o0Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 8"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/881/500/500.jpg?hmac=8qhn5AvId5cvKckdKIbLzN_S9nQjvx0RIquHtt8RPIM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 8"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-8",
-      "price":"43.69"
-    },
-    {
-      "handle": "אדמת-שתילה-איכותית",
-      "collection": "דשנים-ואדמה",
-      "title": "אדמת שתילה איכותית",
-      "description": "המוצר 'אדמת שתילה איכותית' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/797/500/500.jpg?hmac=NWRKOEOrKLNHbNC4jvtk2sabKk9I15LUlswiImh7o0Q",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 9"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/797/500/500.jpg?hmac=NWRKOEOrKLNHbNC4jvtk2sabKk9I15LUlswiImh7o0Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 9"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/881/500/500.jpg?hmac=8qhn5AvId5cvKckdKIbLzN_S9nQjvx0RIquHtt8RPIM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 9"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-9",
-      "price":"21.01"
-    },
-    {
-      "handle": "מעמד-עץ-לצמחים",
-      "collection": "דשנים-ואדמה",
-      "title": "מעמד עץ לצמחים",
-      "description": "המוצר 'מעמד עץ לצמחים' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/881/500/500.jpg?hmac=8qhn5AvId5cvKckdKIbLzN_S9nQjvx0RIquHtt8RPIM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 10"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/881/500/500.jpg?hmac=8qhn5AvId5cvKckdKIbLzN_S9nQjvx0RIquHtt8RPIM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 10"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/830/500/500.jpg?hmac=KC35WCb0_sG3NNDb9rNSm_LAmswJ8RohbTwuNZ0p4oI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 10"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/330/500/500.jpg?hmac=g-Rujc9tN1-gadnrO6mAVLrKvspCudlw5MTEnTiSNmk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 10"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/519/500/500.jpg?hmac=Id7MtS3kGuVLcnZK4gYpgGZbT6kKW7aoWUWbv2J9O-s",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 10"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/936/500/500.jpg?hmac=NGsNH7_soMkC0Co3hO_l691M2v2TWXWJLjl2GGDoSOs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 10"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-10",
-      "price":"30.03"
-    },
-    {
-      "handle": "מנורת-גידול",
-      "collection": "עיצוב-הגינה",
-      "title": "מנורת גידול LED",
-      "description": "המוצר 'מנורת גידול LED' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/830/500/500.jpg?hmac=KC35WCb0_sG3NNDb9rNSm_LAmswJ8RohbTwuNZ0p4oI",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 11"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/830/500/500.jpg?hmac=KC35WCb0_sG3NNDb9rNSm_LAmswJ8RohbTwuNZ0p4oI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 11"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/330/500/500.jpg?hmac=g-Rujc9tN1-gadnrO6mAVLrKvspCudlw5MTEnTiSNmk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 11"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/519/500/500.jpg?hmac=Id7MtS3kGuVLcnZK4gYpgGZbT6kKW7aoWUWbv2J9O-s",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 11"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/936/500/500.jpg?hmac=NGsNH7_soMkC0Co3hO_l691M2v2TWXWJLjl2GGDoSOs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 11"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/662/500/500.jpg?hmac=_urzWs8zVmCmWpTWndJYlUGd2CLInnuEQ9djt7xmMUk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 11"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-11",
-      "price":"20.61"
-    },
-    {
-      "handle": "קישוט-גינה-עם-אורות",
-      "collection": "צמחי-חוץ",
-      "title": "קישוט גינה עם אורות",
-      "description": "המוצר 'קישוט גינה עם אורות' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/330/500/500.jpg?hmac=g-Rujc9tN1-gadnrO6mAVLrKvspCudlw5MTEnTiSNmk",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 12"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/330/500/500.jpg?hmac=g-Rujc9tN1-gadnrO6mAVLrKvspCudlw5MTEnTiSNmk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 12"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-12",
-      "price":"95.37"
-    },
-    {
-      "handle": "עץ-זית-קטן",
-      "collection": "צמחי-חוץ",
-      "title": "עץ זית קטן",
-      "description": "המוצר 'עץ זית קטן' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/519/500/500.jpg?hmac=Id7MtS3kGuVLcnZK4gYpgGZbT6kKW7aoWUWbv2J9O-s",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 13"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/519/500/500.jpg?hmac=Id7MtS3kGuVLcnZK4gYpgGZbT6kKW7aoWUWbv2J9O-s",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 13"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/936/500/500.jpg?hmac=NGsNH7_soMkC0Co3hO_l691M2v2TWXWJLjl2GGDoSOs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 13"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/662/500/500.jpg?hmac=_urzWs8zVmCmWpTWndJYlUGd2CLInnuEQ9djt7xmMUk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 13"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/45/500/500.jpg?hmac=KZ-kuXRiRuRjXKcoLzeNxs2AjEbpN0myBDwGv5w9Cmg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 13"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-13",
-      "price":"107.58"
-    },
-    {
-      "handle": "עץ-רימון-ננסי",
-      "collection": "מתנות",
-      "title": "עץ רימון ננסי",
-      "description": "המוצר 'עץ רימון ננסי' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/936/500/500.jpg?hmac=NGsNH7_soMkC0Co3hO_l691M2v2TWXWJLjl2GGDoSOs",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 14"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/936/500/500.jpg?hmac=NGsNH7_soMkC0Co3hO_l691M2v2TWXWJLjl2GGDoSOs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 14"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-14",
-      "price":"120.75"
-    },
-    {
-      "handle": "עץ-תפוח-בגידול-ביתי",
-      "collection": "צמחי-חוץ",
-      "title": "עץ תפוח בגידול ביתי",
-      "description": "המוצר 'עץ תפוח בגידול ביתי' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/662/500/500.jpg?hmac=_urzWs8zVmCmWpTWndJYlUGd2CLInnuEQ9djt7xmMUk",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 15"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/662/500/500.jpg?hmac=_urzWs8zVmCmWpTWndJYlUGd2CLInnuEQ9djt7xmMUk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 15"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/45/500/500.jpg?hmac=KZ-kuXRiRuRjXKcoLzeNxs2AjEbpN0myBDwGv5w9Cmg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 15"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-15",
-      "price":"121.66"
-    },
-    {
-      "handle": "שתיל-עגבניות",
-      "collection": "עיצוב-הגינה",
-      "title": "שתיל עגבניות",
-      "description": "המוצר 'שתיל עגבניות' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/45/500/500.jpg?hmac=KZ-kuXRiRuRjXKcoLzeNxs2AjEbpN0myBDwGv5w9Cmg",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 16"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/45/500/500.jpg?hmac=KZ-kuXRiRuRjXKcoLzeNxs2AjEbpN0myBDwGv5w9Cmg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 16"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/813/500/500.jpg?hmac=KJQVph7OZuPGTejyf2coxgnrw2kuE3wLl54M8MYfxoY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 16"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-16",
-      "price":"87.53"
-    },
-    {
-      "handle": "שתיל-פלפל-חריף",
-      "collection": "צמחי-בית",
-      "title": "שתיל פלפל חריף",
-      "description": "המוצר 'שתיל פלפל חריף' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/813/500/500.jpg?hmac=KJQVph7OZuPGTejyf2coxgnrw2kuE3wLl54M8MYfxoY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 17"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/813/500/500.jpg?hmac=KJQVph7OZuPGTejyf2coxgnrw2kuE3wLl54M8MYfxoY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 17"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/174/500/500.jpg?hmac=_tWp1MWsMJFk29AbMxJKhx1MEHxlpQ4MEABUDsysxTU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 17"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/685/500/500.jpg?hmac=lnsNPNacFnoZyBILLlfASmAxlZtbbUVCnGFWA3mUYNM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 17"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-17",
-      "price":"143.5"
-    },
-    {
-      "handle": "שתיל-בזיליקום",
-      "collection": "מתנות",
-      "title": "שתיל בזיליקום",
-      "description": "המוצר 'שתיל בזיליקום' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/174/500/500.jpg?hmac=_tWp1MWsMJFk29AbMxJKhx1MEHxlpQ4MEABUDsysxTU",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 18"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/174/500/500.jpg?hmac=_tWp1MWsMJFk29AbMxJKhx1MEHxlpQ4MEABUDsysxTU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 18"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/685/500/500.jpg?hmac=lnsNPNacFnoZyBILLlfASmAxlZtbbUVCnGFWA3mUYNM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 18"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-18",
-      "price":"81.25"
-    },
-    {
-      "handle": "סוקולנט-בצורת-לב",
-      "collection": "דשנים-ואדמה",
-      "title": "סוקולנט בצורת לב",
-      "description": "המוצר 'סוקולנט בצורת לב' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/685/500/500.jpg?hmac=lnsNPNacFnoZyBILLlfASmAxlZtbbUVCnGFWA3mUYNM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 19"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/685/500/500.jpg?hmac=lnsNPNacFnoZyBILLlfASmAxlZtbbUVCnGFWA3mUYNM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 19"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/387/500/500.jpg?hmac=1QmctCe6JuOK66mhfGHPpkRC_hm5myYZaTU3TffRId4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 19"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/434/500/500.jpg?hmac=FPqmawt8p20vxeYkoiBbWG1qVXM5vlSKIRwqu06IYrk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 19"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/618/500/500.jpg?hmac=-U8GAgEI7ChUZUiD9rdvxo3EGQq0MR81ViM7ze8HDYc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 19"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 19"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-19",
-      "price":"147.99"
-    },
-    {
-      "handle": "פוטוס-זהוב",
-      "collection": "דשנים-ואדמה",
-      "title": "פוטוס זהוב",
-      "description": "המוצר 'פוטוס זהוב' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/387/500/500.jpg?hmac=1QmctCe6JuOK66mhfGHPpkRC_hm5myYZaTU3TffRId4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 20"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/387/500/500.jpg?hmac=1QmctCe6JuOK66mhfGHPpkRC_hm5myYZaTU3TffRId4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 20"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/434/500/500.jpg?hmac=FPqmawt8p20vxeYkoiBbWG1qVXM5vlSKIRwqu06IYrk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 20"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/618/500/500.jpg?hmac=-U8GAgEI7ChUZUiD9rdvxo3EGQq0MR81ViM7ze8HDYc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 20"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 20"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/732/500/500.jpg?hmac=faRbsgyl_RyPtgF3u3Qq7W-nttBK__vvJv3ZQm6J37M",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 20"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-20",
-      "price":"60.38"
-    },
-    {
-      "handle": "דקל-ננסי",
-      "collection": "מתנות",
-      "title": "דקל ננסי",
-      "description": "המוצר 'דקל ננסי' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/434/500/500.jpg?hmac=FPqmawt8p20vxeYkoiBbWG1qVXM5vlSKIRwqu06IYrk",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 21"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/434/500/500.jpg?hmac=FPqmawt8p20vxeYkoiBbWG1qVXM5vlSKIRwqu06IYrk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 21"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/618/500/500.jpg?hmac=-U8GAgEI7ChUZUiD9rdvxo3EGQq0MR81ViM7ze8HDYc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 21"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 21"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/732/500/500.jpg?hmac=faRbsgyl_RyPtgF3u3Qq7W-nttBK__vvJv3ZQm6J37M",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 21"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-21",
-      "price":"52.75"
-    },
-    {
-      "handle": "קקטוס-פריחה",
-      "collection": "דשנים-ואדמה",
-      "title": "קקטוס פריחה",
-      "description": "המוצר 'קקטוס פריחה' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/618/500/500.jpg?hmac=-U8GAgEI7ChUZUiD9rdvxo3EGQq0MR81ViM7ze8HDYc",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 22"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/618/500/500.jpg?hmac=-U8GAgEI7ChUZUiD9rdvxo3EGQq0MR81ViM7ze8HDYc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 22"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 22"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-22",
-      "price":"77.32"
-    },
-    {
-      "handle": "קישוטי-עץ-טבעיים",
-      "collection": "צמחי-בית",
-      "title": "קישוטי עץ טבעיים",
-      "description": "המוצר 'קישוטי עץ טבעיים' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 23"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/818/500/500.jpg?hmac=gm6k4It137OUao6Tabm1Dwkiu7WE-9qWiPMW42phI_k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 23"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/732/500/500.jpg?hmac=faRbsgyl_RyPtgF3u3Qq7W-nttBK__vvJv3ZQm6J37M",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 23"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/154/500/500.jpg?hmac=FllRw28Q-FvNcaoMKFebIn1ozCKAz0vitCYTygZJD7I",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 23"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/502/500/500.jpg?hmac=0YIjLggwzTog25K0Ahm4id-VAHyMWcick0NynKp42XY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 23"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-23",
-      "price":"141.13"
-    },
-    {
-      "handle": "אדנית-תלייה-צבעונית",
-      "collection": "כלי-גינון",
-      "title": "אדנית תלייה צבעונית",
-      "description": "המוצר 'אדנית תלייה צבעונית' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/732/500/500.jpg?hmac=faRbsgyl_RyPtgF3u3Qq7W-nttBK__vvJv3ZQm6J37M",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 24"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/732/500/500.jpg?hmac=faRbsgyl_RyPtgF3u3Qq7W-nttBK__vvJv3ZQm6J37M",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 24"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/154/500/500.jpg?hmac=FllRw28Q-FvNcaoMKFebIn1ozCKAz0vitCYTygZJD7I",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 24"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-24",
-      "price":"126.34"
-    },
-    {
-      "handle": "כלי-דישון",
-      "collection": "צמחי-בית",
-      "title": "כלי דישון",
-      "description": "המוצר 'כלי דישון' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/154/500/500.jpg?hmac=FllRw28Q-FvNcaoMKFebIn1ozCKAz0vitCYTygZJD7I",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 25"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/154/500/500.jpg?hmac=FllRw28Q-FvNcaoMKFebIn1ozCKAz0vitCYTygZJD7I",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 25"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-25",
-      "price":"138.98"
-    },
-    {
-      "handle": "מרסס-מים",
-      "collection": "עיצוב-הגינה",
-      "title": "מרסס מים",
-      "description": "המוצר 'מרסס מים' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/502/500/500.jpg?hmac=0YIjLggwzTog25K0Ahm4id-VAHyMWcick0NynKp42XY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 26"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/502/500/500.jpg?hmac=0YIjLggwzTog25K0Ahm4id-VAHyMWcick0NynKp42XY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 26"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/13/500/500.jpg?hmac=oIMjG56df3J3cWXHmJTmMSVj1huozLkKwY4NAUXpxOw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 26"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/774/500/500.jpg?hmac=E0lO7phH91QDC-xgCT0v4XuybbExyZsZ-f99GDS21tA",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 26"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-26",
-      "price":"88.47"
-    },
-    {
-      "handle": "מיכל-השקיה",
-      "collection": "צמחי-בית",
-      "title": "מיכל השקיה",
-      "description": "המוצר 'מיכל השקיה' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/13/500/500.jpg?hmac=oIMjG56df3J3cWXHmJTmMSVj1huozLkKwY4NAUXpxOw",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 27"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/13/500/500.jpg?hmac=oIMjG56df3J3cWXHmJTmMSVj1huozLkKwY4NAUXpxOw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 27"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/774/500/500.jpg?hmac=E0lO7phH91QDC-xgCT0v4XuybbExyZsZ-f99GDS21tA",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 27"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/287/500/500.jpg?hmac=_3noAomaHvNHwr4FpelZX-90Cw1OEmo2ovuVn6bAHKk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 27"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-27",
-      "price":"134.52"
-    },
-    {
-      "handle": "צמח-נענע-מרענן",
-      "collection": "כלי-גינון",
-      "title": "צמח נענע מרענן",
-      "description": "המוצר 'צמח נענע מרענן' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/774/500/500.jpg?hmac=E0lO7phH91QDC-xgCT0v4XuybbExyZsZ-f99GDS21tA",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 28"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/774/500/500.jpg?hmac=E0lO7phH91QDC-xgCT0v4XuybbExyZsZ-f99GDS21tA",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 28"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/287/500/500.jpg?hmac=_3noAomaHvNHwr4FpelZX-90Cw1OEmo2ovuVn6bAHKk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 28"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/758/500/500.jpg?hmac=iYYs5WvuFnjFkDWpU2f9qtAabJYCUZEYYY7h9GLyVyo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 28"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-28",
-      "price":"106.39"
-    },
-    {
-      "handle": "עציץ-רוזמרין",
-      "collection": "מתנות",
-      "title": "עציץ רוזמרין",
-      "description": "המוצר 'עציץ רוזמרין' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/287/500/500.jpg?hmac=_3noAomaHvNHwr4FpelZX-90Cw1OEmo2ovuVn6bAHKk",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 29"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/287/500/500.jpg?hmac=_3noAomaHvNHwr4FpelZX-90Cw1OEmo2ovuVn6bAHKk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 29"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/758/500/500.jpg?hmac=iYYs5WvuFnjFkDWpU2f9qtAabJYCUZEYYY7h9GLyVyo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 29"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/106/500/500.jpg?hmac=gJXKJglipb1aD_WnrD1O_wu2AQFYs8s7Izy6Yww8fp4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 29"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-29",
-      "price":"139.9"
-    },
-    {
-      "handle": "גזם-תפוחי-אדמה",
-      "collection": "עיצוב-הגינה",
-      "title": "גזם תפוחי אדמה",
-      "description": "המוצר 'גזם תפוחי אדמה' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/758/500/500.jpg?hmac=iYYs5WvuFnjFkDWpU2f9qtAabJYCUZEYYY7h9GLyVyo",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 30"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/758/500/500.jpg?hmac=iYYs5WvuFnjFkDWpU2f9qtAabJYCUZEYYY7h9GLyVyo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 30"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/106/500/500.jpg?hmac=gJXKJglipb1aD_WnrD1O_wu2AQFYs8s7Izy6Yww8fp4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 30"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-30",
-      "price":"64.49"
-    },
-    {
-      "handle": "פוטוס-מטפס-2",
-      "collection": "דשנים-ואדמה",
-      "title": "פוטוס מטפס #2",
-      "description": "המוצר 'פוטוס מטפס #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/106/500/500.jpg?hmac=gJXKJglipb1aD_WnrD1O_wu2AQFYs8s7Izy6Yww8fp4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 31"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/106/500/500.jpg?hmac=gJXKJglipb1aD_WnrD1O_wu2AQFYs8s7Izy6Yww8fp4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 31"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-31",
-      "price":"99.45"
-    },
-    {
-      "handle": "סוקולנט-ירוק-2",
-      "collection": "עציצים-ואדניות",
-      "title": "סוקולנט ירוק #2",
-      "description": "המוצר 'סוקולנט ירוק #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/241/500/500.jpg?hmac=5e0H7x5lf1-dRbxyLe5xcgSFfnXRMBwGzPNZdPh6HO0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 32"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/241/500/500.jpg?hmac=5e0H7x5lf1-dRbxyLe5xcgSFfnXRMBwGzPNZdPh6HO0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 32"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1024/500/500.jpg?hmac=dLr0aDZbynsr8ZvWIWsQSU54QOEPaS6YGRtg5fjatow",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 32"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-32",
-      "price":"63.32"
-    },
-    {
-      "handle": "קקטוס-קטן-2",
-      "collection": "כלי-גינון",
-      "title": "קקטוס קטן #2",
-      "description": "המוצר 'קקטוס קטן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1024/500/500.jpg?hmac=dLr0aDZbynsr8ZvWIWsQSU54QOEPaS6YGRtg5fjatow",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 33"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1024/500/500.jpg?hmac=dLr0aDZbynsr8ZvWIWsQSU54QOEPaS6YGRtg5fjatow",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 33"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1080/500/500.jpg?hmac=yIT2RDfQXaNeihJn27EjmEjuQzADHzr-QtozN0qaz7Y",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 33"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-33",
-      "price":"140.49"
-    },
-    {
-      "handle": "אדנית-קרמית-2",
-      "collection": "עשבי-תיבול",
-      "title": "אדנית קרמית #2",
-      "description": "המוצר 'אדנית קרמית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1080/500/500.jpg?hmac=yIT2RDfQXaNeihJn27EjmEjuQzADHzr-QtozN0qaz7Y",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 34"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1080/500/500.jpg?hmac=yIT2RDfQXaNeihJn27EjmEjuQzADHzr-QtozN0qaz7Y",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 34"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-34",
-      "price":"62.63"
-    },
-    {
-      "handle": "דשן-לצמיחה-2",
-      "collection": "עציצים-ואדניות",
-      "title": "דשן לצמיחה #2",
-      "description": "המוצר 'דשן לצמיחה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/727/500/500.jpg?hmac=qu0BGavrXEqRBVFjRQml2GsrlzWcJVSlOBFwbd8M-TE",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 35"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/727/500/500.jpg?hmac=qu0BGavrXEqRBVFjRQml2GsrlzWcJVSlOBFwbd8M-TE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 35"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1020/500/500.jpg?hmac=X5Wk7p9iT87vc8u9qmrI_CjloYVsXbvH0jUq-VKwUvE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 35"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/220/500/500.jpg?hmac=BI2JJ-HO8Y-sPg5VypbxvFcnn_kODMPs1eFverLVdD0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 35"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/339/500/500.jpg?hmac=ZhgAUBAey1SZkz0i4smhORK-fjdk-QgfdFhQa7ABDm8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 35"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-35",
-      "price":"68.81"
-    },
-    {
-      "handle": "כלי-שתילה-מעוצב-2",
-      "collection": "צמחי-חוץ",
-      "title": "כלי שתילה מעוצב #2",
-      "description": "המוצר 'כלי שתילה מעוצב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1020/500/500.jpg?hmac=X5Wk7p9iT87vc8u9qmrI_CjloYVsXbvH0jUq-VKwUvE",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 36"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1020/500/500.jpg?hmac=X5Wk7p9iT87vc8u9qmrI_CjloYVsXbvH0jUq-VKwUvE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 36"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/220/500/500.jpg?hmac=BI2JJ-HO8Y-sPg5VypbxvFcnn_kODMPs1eFverLVdD0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 36"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/339/500/500.jpg?hmac=ZhgAUBAey1SZkz0i4smhORK-fjdk-QgfdFhQa7ABDm8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 36"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-36",
-      "price":"24.31"
-    },
-    {
-      "handle": "סט-כלים-לגינון-2",
-      "collection": "עשבי-תיבול",
-      "title": "סט כלים לגינון #2",
-      "description": "המוצר 'סט כלים לגינון #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/220/500/500.jpg?hmac=BI2JJ-HO8Y-sPg5VypbxvFcnn_kODMPs1eFverLVdD0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 37"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/220/500/500.jpg?hmac=BI2JJ-HO8Y-sPg5VypbxvFcnn_kODMPs1eFverLVdD0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 37"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/339/500/500.jpg?hmac=ZhgAUBAey1SZkz0i4smhORK-fjdk-QgfdFhQa7ABDm8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 37"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/195/500/500.jpg?hmac=L0aQHXtbCWaqlgWJm8avFI8JAdJyk9EJlRXQcOM9RLc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 37"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-37",
-      "price":"47.66"
-    },
-    {
-      "handle": "נענע-טרייה-2",
-      "collection": "עציצים-ואדניות",
-      "title": "נענע טרייה #2",
-      "description": "המוצר 'נענע טרייה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/339/500/500.jpg?hmac=ZhgAUBAey1SZkz0i4smhORK-fjdk-QgfdFhQa7ABDm8",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 38"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/339/500/500.jpg?hmac=ZhgAUBAey1SZkz0i4smhORK-fjdk-QgfdFhQa7ABDm8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 38"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/195/500/500.jpg?hmac=L0aQHXtbCWaqlgWJm8avFI8JAdJyk9EJlRXQcOM9RLc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 38"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/573/500/500.jpg?hmac=qt0S_C7_O1aXj7vVDp3WJezCVH777wRHWOAN5FF5L6U",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 38"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-38",
-      "price":"64.12"
-    },
-    {
-      "handle": "אדמת-שתילה-איכותית-2",
-      "collection": "צמחי-חוץ",
-      "title": "אדמת שתילה איכותית #2",
-      "description": "המוצר 'אדמת שתילה איכותית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/195/500/500.jpg?hmac=L0aQHXtbCWaqlgWJm8avFI8JAdJyk9EJlRXQcOM9RLc",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 39"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/195/500/500.jpg?hmac=L0aQHXtbCWaqlgWJm8avFI8JAdJyk9EJlRXQcOM9RLc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 39"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/573/500/500.jpg?hmac=qt0S_C7_O1aXj7vVDp3WJezCVH777wRHWOAN5FF5L6U",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 39"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-39",
-      "price":"99.73"
-    },
-    {
-      "handle": "מעמד-עץ-לצמחים-2",
-      "collection": "דשנים-ואדמה",
-      "title": "מעמד עץ לצמחים #2",
-      "description": "המוצר 'מעמד עץ לצמחים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/573/500/500.jpg?hmac=qt0S_C7_O1aXj7vVDp3WJezCVH777wRHWOAN5FF5L6U",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 40"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/573/500/500.jpg?hmac=qt0S_C7_O1aXj7vVDp3WJezCVH777wRHWOAN5FF5L6U",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 40"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/225/500/500.jpg?hmac=hMlGAONwRiiQOiIs0P_QIPSvl28d7RnwxwVpbjIb49k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 40"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-40",
-      "price":"58.58"
-    },
-    {
-      "handle": "מנורת-גידול-2",
-      "collection": "צמחי-בית",
-      "title": "מנורת גידול LED #2",
-      "description": "המוצר 'מנורת גידול LED #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/225/500/500.jpg?hmac=hMlGAONwRiiQOiIs0P_QIPSvl28d7RnwxwVpbjIb49k",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 41"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/225/500/500.jpg?hmac=hMlGAONwRiiQOiIs0P_QIPSvl28d7RnwxwVpbjIb49k",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 41"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/651/500/500.jpg?hmac=70YdysGdDZN_blewD0jhzMufhsJYxBQTYNrYSVZGucM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 41"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/485/500/500.jpg?hmac=bnkpe2bK8fs_wZvREyifGZl4Kc-1jvUwqK4tWBCM3yU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 41"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-41",
-      "price":"119.22"
-    },
-    {
-      "handle": "קישוט-גינה-עם-אורות-2",
-      "collection": "עשבי-תיבול",
-      "title": "קישוט גינה עם אורות #2",
-      "description": "המוצר 'קישוט גינה עם אורות #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/651/500/500.jpg?hmac=70YdysGdDZN_blewD0jhzMufhsJYxBQTYNrYSVZGucM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 42"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/651/500/500.jpg?hmac=70YdysGdDZN_blewD0jhzMufhsJYxBQTYNrYSVZGucM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 42"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/485/500/500.jpg?hmac=bnkpe2bK8fs_wZvREyifGZl4Kc-1jvUwqK4tWBCM3yU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 42"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-42",
-      "price":"105.31"
-    },
-    {
-      "handle": "עץ-זית-קטן-2",
-      "collection": "צמחי-בית",
-      "title": "עץ זית קטן #2",
-      "description": "המוצר 'עץ זית קטן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/485/500/500.jpg?hmac=bnkpe2bK8fs_wZvREyifGZl4Kc-1jvUwqK4tWBCM3yU",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 43"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/485/500/500.jpg?hmac=bnkpe2bK8fs_wZvREyifGZl4Kc-1jvUwqK4tWBCM3yU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 43"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/805/500/500.jpg?hmac=kARmBh40HEEvzhVf6n8NBWFd510cdp9ZjAwFmRr34wc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 43"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/15/500/500.jpg?hmac=YIdwbnReqRQwfTvAZijylkS_2Oya-9yQRKHpNqd5wT4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 43"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1049/500/500.jpg?hmac=PoSSwzcyKoiRMJSvEwXROTsogHGRdnrMJN8caWV2eO4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 43"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-43",
-      "price":"61.5"
-    },
-    {
-      "handle": "עץ-רימון-ננסי-2",
-      "collection": "צמחי-חוץ",
-      "title": "עץ רימון ננסי #2",
-      "description": "המוצר 'עץ רימון ננסי #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/805/500/500.jpg?hmac=kARmBh40HEEvzhVf6n8NBWFd510cdp9ZjAwFmRr34wc",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 44"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/805/500/500.jpg?hmac=kARmBh40HEEvzhVf6n8NBWFd510cdp9ZjAwFmRr34wc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 44"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/15/500/500.jpg?hmac=YIdwbnReqRQwfTvAZijylkS_2Oya-9yQRKHpNqd5wT4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 44"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1049/500/500.jpg?hmac=PoSSwzcyKoiRMJSvEwXROTsogHGRdnrMJN8caWV2eO4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 44"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-44",
-      "price":"21.5"
-    },
-    {
-      "handle": "עץ-תפוח-בגידול-ביתי-2",
-      "collection": "צמחי-בית",
-      "title": "עץ תפוח בגידול ביתי #2",
-      "description": "המוצר 'עץ תפוח בגידול ביתי #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/15/500/500.jpg?hmac=YIdwbnReqRQwfTvAZijylkS_2Oya-9yQRKHpNqd5wT4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 45"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/15/500/500.jpg?hmac=YIdwbnReqRQwfTvAZijylkS_2Oya-9yQRKHpNqd5wT4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 45"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1049/500/500.jpg?hmac=PoSSwzcyKoiRMJSvEwXROTsogHGRdnrMJN8caWV2eO4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 45"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/973/500/500.jpg?hmac=Bn1YsnZwwdtKXVDb89FA361RO8WOADSBeLAP8Ckfsgo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 45"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/170/500/500.jpg?hmac=9cB7MCe6Puz7ndZI1jxxwhDw4TEFTrPPCTEkEiMPnT0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 45"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-45",
-      "price":"76.39"
-    },
-    {
-      "handle": "שתיל-עגבניות-2",
-      "collection": "כלי-גינון",
-      "title": "שתיל עגבניות #2",
-      "description": "המוצר 'שתיל עגבניות #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1049/500/500.jpg?hmac=PoSSwzcyKoiRMJSvEwXROTsogHGRdnrMJN8caWV2eO4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 46"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1049/500/500.jpg?hmac=PoSSwzcyKoiRMJSvEwXROTsogHGRdnrMJN8caWV2eO4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 46"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/973/500/500.jpg?hmac=Bn1YsnZwwdtKXVDb89FA361RO8WOADSBeLAP8Ckfsgo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 46"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-46",
-      "price":"40.44"
-    },
-    {
-      "handle": "שתיל-פלפל-חריף-2",
-      "collection": "עציצים-ואדניות",
-      "title": "שתיל פלפל חריף #2",
-      "description": "המוצר 'שתיל פלפל חריף #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/973/500/500.jpg?hmac=Bn1YsnZwwdtKXVDb89FA361RO8WOADSBeLAP8Ckfsgo",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 47"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/973/500/500.jpg?hmac=Bn1YsnZwwdtKXVDb89FA361RO8WOADSBeLAP8Ckfsgo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 47"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/170/500/500.jpg?hmac=9cB7MCe6Puz7ndZI1jxxwhDw4TEFTrPPCTEkEiMPnT0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 47"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/981/500/500.jpg?hmac=jI0JpUDEQuFcGv4b05zl90aEzbjiq62ejNmdxDFfurQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 47"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/51/500/500.jpg?hmac=KK8QBlKH-MqYiaSH4n0nSL2n5ydkXEIJerIoaPbM1lc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 47"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-47",
-      "price":"81.71"
-    },
-    {
-      "handle": "שתיל-בזיליקום-2",
-      "collection": "כלי-גינון",
-      "title": "שתיל בזיליקום #2",
-      "description": "המוצר 'שתיל בזיליקום #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/170/500/500.jpg?hmac=9cB7MCe6Puz7ndZI1jxxwhDw4TEFTrPPCTEkEiMPnT0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 48"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/170/500/500.jpg?hmac=9cB7MCe6Puz7ndZI1jxxwhDw4TEFTrPPCTEkEiMPnT0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 48"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/981/500/500.jpg?hmac=jI0JpUDEQuFcGv4b05zl90aEzbjiq62ejNmdxDFfurQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 48"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/51/500/500.jpg?hmac=KK8QBlKH-MqYiaSH4n0nSL2n5ydkXEIJerIoaPbM1lc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 48"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/98/500/500.jpg?hmac=Ey7RSliG_DIUv6n2APfXCsPDthK2I7Ml8im4VOXoehE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 48"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/68/500/500.jpg?hmac=pKyI0LMvS_HyH_vx_jWvbwbytO_vxmfxFsrjvX9X5D8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 48"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-48",
-      "price":"42.62"
-    },
-    {
-      "handle": "סוקולנט-בצורת-לב-2",
-      "collection": "עציצים-ואדניות",
-      "title": "סוקולנט בצורת לב #2",
-      "description": "המוצר 'סוקולנט בצורת לב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/981/500/500.jpg?hmac=jI0JpUDEQuFcGv4b05zl90aEzbjiq62ejNmdxDFfurQ",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 49"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/981/500/500.jpg?hmac=jI0JpUDEQuFcGv4b05zl90aEzbjiq62ejNmdxDFfurQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 49"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/51/500/500.jpg?hmac=KK8QBlKH-MqYiaSH4n0nSL2n5ydkXEIJerIoaPbM1lc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 49"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/98/500/500.jpg?hmac=Ey7RSliG_DIUv6n2APfXCsPDthK2I7Ml8im4VOXoehE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 49"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-49",
-      "price":"75.69"
-    },
-    {
-      "handle": "פוטוס-זהוב-2",
-      "collection": "מתנות",
-      "title": "פוטוס זהוב #2",
-      "description": "המוצר 'פוטוס זהוב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/51/500/500.jpg?hmac=KK8QBlKH-MqYiaSH4n0nSL2n5ydkXEIJerIoaPbM1lc",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 50"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/51/500/500.jpg?hmac=KK8QBlKH-MqYiaSH4n0nSL2n5ydkXEIJerIoaPbM1lc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 50"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-50",
-      "price":"16.24"
-    },
-    {
-      "handle": "דקל-ננסי-2",
-      "collection": "עציצים-ואדניות",
-      "title": "דקל ננסי #2",
-      "description": "המוצר 'דקל ננסי #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/98/500/500.jpg?hmac=Ey7RSliG_DIUv6n2APfXCsPDthK2I7Ml8im4VOXoehE",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 51"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/98/500/500.jpg?hmac=Ey7RSliG_DIUv6n2APfXCsPDthK2I7Ml8im4VOXoehE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 51"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/68/500/500.jpg?hmac=pKyI0LMvS_HyH_vx_jWvbwbytO_vxmfxFsrjvX9X5D8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 51"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-51",
-      "price":"33.33"
-    },
-    {
-      "handle": "קקטוס-פריחה-2",
-      "collection": "כלי-גינון",
-      "title": "קקטוס פריחה #2",
-      "description": "המוצר 'קקטוס פריחה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/68/500/500.jpg?hmac=pKyI0LMvS_HyH_vx_jWvbwbytO_vxmfxFsrjvX9X5D8",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 52"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/68/500/500.jpg?hmac=pKyI0LMvS_HyH_vx_jWvbwbytO_vxmfxFsrjvX9X5D8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 52"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-52",
-      "price":"36.88"
-    },
-    {
-      "handle": "קישוטי-עץ-טבעיים-2",
-      "collection": "כלי-גינון",
-      "title": "קישוטי עץ טבעיים #2",
-      "description": "המוצר 'קישוטי עץ טבעיים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/469/500/500.jpg?hmac=BHkrKLd_URIkqjZ1czEQW8VU6jk4NBixFMVPNud2LPg",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 53"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/469/500/500.jpg?hmac=BHkrKLd_URIkqjZ1czEQW8VU6jk4NBixFMVPNud2LPg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 53"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/645/500/500.jpg?hmac=2nNGRjcMTBqW8BiCQk8Jl-ofYXQGNrvr_B4G1QgBKi4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 53"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-53",
-      "price":"66.36"
-    },
-    {
-      "handle": "אדנית-תלייה-צבעונית-2",
-      "collection": "עשבי-תיבול",
-      "title": "אדנית תלייה צבעונית #2",
-      "description": "המוצר 'אדנית תלייה צבעונית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/645/500/500.jpg?hmac=2nNGRjcMTBqW8BiCQk8Jl-ofYXQGNrvr_B4G1QgBKi4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 54"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/645/500/500.jpg?hmac=2nNGRjcMTBqW8BiCQk8Jl-ofYXQGNrvr_B4G1QgBKi4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 54"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/682/500/500.jpg?hmac=-obFWBRFVHON2ku5QDQCKtwWprQWsXzeJge1pJqbhjA",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 54"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 54"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/705/500/500.jpg?hmac=8LnfL2R-2-z-3SsB0yQU69qZ8hFqb7w8th6KuHaTOOQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 54"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-54",
-      "price":"98.7"
-    },
-    {
-      "handle": "כלי-דישון-2",
-      "collection": "צמחי-חוץ",
-      "title": "כלי דישון #2",
-      "description": "המוצר 'כלי דישון #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/682/500/500.jpg?hmac=-obFWBRFVHON2ku5QDQCKtwWprQWsXzeJge1pJqbhjA",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 55"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/682/500/500.jpg?hmac=-obFWBRFVHON2ku5QDQCKtwWprQWsXzeJge1pJqbhjA",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 55"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-55",
-      "price":"83.34"
-    },
-    {
-      "handle": "מרסס-מים-2",
-      "collection": "מתנות",
-      "title": "מרסס מים #2",
-      "description": "המוצר 'מרסס מים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 56"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 56"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/705/500/500.jpg?hmac=8LnfL2R-2-z-3SsB0yQU69qZ8hFqb7w8th6KuHaTOOQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 56"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/155/500/500.jpg?hmac=pb5YrtFe826CIq-hgqS9u6BrbzGKdpBiTy84Te-c5NY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 56"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/381/500/500.jpg?hmac=W9wKLETo6ZzP7oKoEC-g4T4D9yLKQYi5M0ITakLkwGk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 56"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/118/500/500.jpg?hmac=UWNWgDwjYpynxDGAJeOONxlkcUSxEsl7Xto6mKqHJuQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 56"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-56",
-      "price":"119.54"
-    },
-    {
-      "handle": "מיכל-השקיה-2",
-      "collection": "צמחי-בית",
-      "title": "מיכל השקיה #2",
-      "description": "המוצר 'מיכל השקיה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/705/500/500.jpg?hmac=8LnfL2R-2-z-3SsB0yQU69qZ8hFqb7w8th6KuHaTOOQ",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 57"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/705/500/500.jpg?hmac=8LnfL2R-2-z-3SsB0yQU69qZ8hFqb7w8th6KuHaTOOQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 57"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/155/500/500.jpg?hmac=pb5YrtFe826CIq-hgqS9u6BrbzGKdpBiTy84Te-c5NY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 57"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/381/500/500.jpg?hmac=W9wKLETo6ZzP7oKoEC-g4T4D9yLKQYi5M0ITakLkwGk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 57"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/118/500/500.jpg?hmac=UWNWgDwjYpynxDGAJeOONxlkcUSxEsl7Xto6mKqHJuQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 57"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/975/500/500.jpg?hmac=RbP64Moc9jYQ-y_USaysuhkSI0GE6SVL4P5KujtpiGI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 57"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-57",
-      "price":"27.08"
-    },
-    {
-      "handle": "צמח-נענע-מרענן-2",
-      "collection": "כלי-גינון",
-      "title": "צמח נענע מרענן #2",
-      "description": "המוצר 'צמח נענע מרענן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/155/500/500.jpg?hmac=pb5YrtFe826CIq-hgqS9u6BrbzGKdpBiTy84Te-c5NY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 58"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/155/500/500.jpg?hmac=pb5YrtFe826CIq-hgqS9u6BrbzGKdpBiTy84Te-c5NY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 58"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/381/500/500.jpg?hmac=W9wKLETo6ZzP7oKoEC-g4T4D9yLKQYi5M0ITakLkwGk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 58"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-58",
-      "price":"60.17"
-    },
-    {
-      "handle": "עציץ-רוזמרין-2",
-      "collection": "עציצים-ואדניות",
-      "title": "עציץ רוזמרין #2",
-      "description": "המוצר 'עציץ רוזמרין #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/381/500/500.jpg?hmac=W9wKLETo6ZzP7oKoEC-g4T4D9yLKQYi5M0ITakLkwGk",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 59"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/381/500/500.jpg?hmac=W9wKLETo6ZzP7oKoEC-g4T4D9yLKQYi5M0ITakLkwGk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 59"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-59",
-      "price":"39.06"
-    },
-    {
-      "handle": "גזם-תפוחי-אדמה-2",
-      "collection": "כלי-גינון",
-      "title": "גזם תפוחי אדמה #2",
-      "description": "המוצר 'גזם תפוחי אדמה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/118/500/500.jpg?hmac=UWNWgDwjYpynxDGAJeOONxlkcUSxEsl7Xto6mKqHJuQ",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 60"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/118/500/500.jpg?hmac=UWNWgDwjYpynxDGAJeOONxlkcUSxEsl7Xto6mKqHJuQ",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 60"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/975/500/500.jpg?hmac=RbP64Moc9jYQ-y_USaysuhkSI0GE6SVL4P5KujtpiGI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 60"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-60",
-      "price":"118.59"
-    },
-    {
-      "handle": "פוטוס-מטפס-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "פוטוס מטפס #2",
-      "description": "המוצר 'פוטוס מטפס #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/975/500/500.jpg?hmac=RbP64Moc9jYQ-y_USaysuhkSI0GE6SVL4P5KujtpiGI",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 61"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/975/500/500.jpg?hmac=RbP64Moc9jYQ-y_USaysuhkSI0GE6SVL4P5KujtpiGI",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 61"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1044/500/500.jpg?hmac=Uz_GCA4ZqpXNg9t-4DnKMcS2iTz66EH9EUqjqflAtgU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 61"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-61",
-      "price":"71.73"
-    },
-    {
-      "handle": "סוקולנט-ירוק-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "סוקולנט ירוק #2",
-      "description": "המוצר 'סוקולנט ירוק #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1044/500/500.jpg?hmac=Uz_GCA4ZqpXNg9t-4DnKMcS2iTz66EH9EUqjqflAtgU",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 62"
-      },
-      "availableForSale": true,
+      "title": "פוטוס",
+      "description": "צמח בית קלאסי הדורש תחזוקה מינימלית ומוסיף ירוק לחלל.",
+      "price": "31.21",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1044/500/500.jpg?hmac=Uz_GCA4ZqpXNg9t-4DnKMcS2iTz66EH9EUqjqflAtgU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 62"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/200/500/500.jpg?hmac=E_EVOEAtqEt5G6rpKi5EmNv7_jIm9efS6I1fxRmKK8Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 62"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1065/500/500.jpg?hmac=8k9DzFyMRu1WVL37AueWysvty3UIv6rZUCUJtsoNif0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 62"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 62"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+          "altText": "פוטוס"
         },
         {
-          "url": "https://fastly.picsum.photos/id/152/500/500.jpg?hmac=jIqM6SBDBTI5Tf5QVawY6HKVQAUyZwqfIOWCw2RtJf4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 62"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+          "altText": "פוטוס"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-62",
-      "price":"15.27"
-    },
-    {
-      "handle": "קקטוס-קטן-2-2",
-      "collection": "צמחי-חוץ",
-      "title": "קקטוס קטן #2",
-      "description": "המוצר 'קקטוס קטן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/200/500/500.jpg?hmac=E_EVOEAtqEt5G6rpKi5EmNv7_jIm9efS6I1fxRmKK8Q",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 63"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/200/500/500.jpg?hmac=E_EVOEAtqEt5G6rpKi5EmNv7_jIm9efS6I1fxRmKK8Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 63"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1065/500/500.jpg?hmac=8k9DzFyMRu1WVL37AueWysvty3UIv6rZUCUJtsoNif0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 63"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 63"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/152/500/500.jpg?hmac=jIqM6SBDBTI5Tf5QVawY6HKVQAUyZwqfIOWCw2RtJf4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 63"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/607/500/500.jpg?hmac=cd2V_aaDN9hu-zOT0QfHgpvGlgV099szrF-qUspUo_o",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 63"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-63",
-      "price":"84.35"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+        "altText": "פוטוס"
+      }
     },
     {
-      "handle": "אדנית-קרמית-2-2",
-      "collection": "צמחי-בית",
-      "title": "אדנית קרמית #2",
-      "description": "המוצר 'אדנית קרמית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1065/500/500.jpg?hmac=8k9DzFyMRu1WVL37AueWysvty3UIv6rZUCUJtsoNif0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 64"
-      },
-      "availableForSale": true,
+      "title": "קיסוס",
+      "description": "מטהר אוויר טבעי המתאים לחללים מוצלים ובהירים.",
+      "price": "101.33",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/1065/500/500.jpg?hmac=8k9DzFyMRu1WVL37AueWysvty3UIv6rZUCUJtsoNif0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 64"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C-M-800x800.jpg",
+          "altText": "קיסוס"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-64",
-      "price":"76.7"
-    },
-    {
-      "handle": "דשן-לצמיחה-2-2",
-      "collection": "צמחי-חוץ",
-      "title": "דשן לצמיחה #2",
-      "description": "המוצר 'דשן לצמיחה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 65"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/796/500/500.jpg?hmac=zfGdoJAHg_9nbZ2Qz1CeybzAvD-cD-3Ds5FpF8KsfzM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 65"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/152/500/500.jpg?hmac=jIqM6SBDBTI5Tf5QVawY6HKVQAUyZwqfIOWCw2RtJf4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 65"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-65",
-      "price":"142.4"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C-M-800x800.jpg",
+        "altText": "קיסוס"
+      }
     },
     {
-      "handle": "כלי-שתילה-מעוצב-2-2",
-      "collection": "עשבי-תיבול",
-      "title": "כלי שתילה מעוצב #2",
-      "description": "המוצר 'כלי שתילה מעוצב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/152/500/500.jpg?hmac=jIqM6SBDBTI5Tf5QVawY6HKVQAUyZwqfIOWCw2RtJf4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 66"
-      },
-      "availableForSale": true,
+      "title": "שרך בוסטון",
+      "description": "מוסיף נופך ירוק ורענן, דורש השקיה מועטה ואור עקיף.",
+      "price": "100.55",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/152/500/500.jpg?hmac=jIqM6SBDBTI5Tf5QVawY6HKVQAUyZwqfIOWCw2RtJf4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 66"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%9C%D7%A7-%D7%A4%D7%A8%D7%99%D7%93%D7%99%D7%99-%D7%A4%D7%95%D7%A1%D7%98-1.jpg",
+          "altText": "שרך בוסטון"
         },
         {
-          "url": "https://fastly.picsum.photos/id/607/500/500.jpg?hmac=cd2V_aaDN9hu-zOT0QfHgpvGlgV099szrF-qUspUo_o",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 66"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "שרך בוסטון"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-66",
-      "price":"93.19"
-    },
-    {
-      "handle": "סט-כלים-לגינון-2-2",
-      "collection": "מתנות",
-      "title": "סט כלים לגינון #2",
-      "description": "המוצר 'סט כלים לגינון #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/607/500/500.jpg?hmac=cd2V_aaDN9hu-zOT0QfHgpvGlgV099szrF-qUspUo_o",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 67"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/607/500/500.jpg?hmac=cd2V_aaDN9hu-zOT0QfHgpvGlgV099szrF-qUspUo_o",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 67"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-67",
-      "price":"147.15"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%9C%D7%A7-%D7%A4%D7%A8%D7%99%D7%93%D7%99%D7%99-%D7%A4%D7%95%D7%A1%D7%98-1.jpg",
+        "altText": "שרך בוסטון"
+      }
     },
     {
-      "handle": "נענע-טרייה-2-2",
-      "collection": "עשבי-תיבול",
-      "title": "נענע טרייה #2",
-      "description": "המוצר 'נענע טרייה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/509/500/500.jpg?hmac=W5fv3N64CIkdzh89B53ZSbhPcxEOpYvVMs00ZwzyMT8",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 68"
-      },
-      "availableForSale": true,
+      "title": "הויה מגוונת",
+      "description": "אידיאלי למשרדים וחללים פנימיים בזכות המראה המודרני.",
+      "price": "58.44",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/509/500/500.jpg?hmac=W5fv3N64CIkdzh89B53ZSbhPcxEOpYvVMs00ZwzyMT8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 68"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%9E%D7%92%D7%95%D7%95%D7%A0%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "הויה מגוונת"
         },
         {
-          "url": "https://fastly.picsum.photos/id/358/500/500.jpg?hmac=LgDJuTIIyUilTJ_z7Ojf6F8mQjngiDisMgG7fCL4vLY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 68"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/698/500/500.jpg?hmac=uxgzs7vncEwTz_EgnEYOKyHj2OnHrgwu4DzufJlkNTY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 68"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+          "altText": "הויה מגוונת"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-68",
-      "price":"78.49"
-    },
-    {
-      "handle": "אדמת-שתילה-איכותית-2-2",
-      "collection": "צמחי-בית",
-      "title": "אדמת שתילה איכותית #2",
-      "description": "המוצר 'אדמת שתילה איכותית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/358/500/500.jpg?hmac=LgDJuTIIyUilTJ_z7Ojf6F8mQjngiDisMgG7fCL4vLY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 69"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/358/500/500.jpg?hmac=LgDJuTIIyUilTJ_z7Ojf6F8mQjngiDisMgG7fCL4vLY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 69"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/698/500/500.jpg?hmac=uxgzs7vncEwTz_EgnEYOKyHj2OnHrgwu4DzufJlkNTY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 69"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-69",
-      "price":"103.12"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%9E%D7%92%D7%95%D7%95%D7%A0%D7%AA-Hoya-M-800x800.jpg",
+        "altText": "הויה מגוונת"
+      }
     },
     {
-      "handle": "מעמד-עץ-לצמחים-2-2",
-      "collection": "עיצוב-הגינה",
-      "title": "מעמד עץ לצמחים #2",
-      "description": "המוצר 'מעמד עץ לצמחים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/698/500/500.jpg?hmac=uxgzs7vncEwTz_EgnEYOKyHj2OnHrgwu4DzufJlkNTY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 70"
-      },
-      "availableForSale": true,
+      "title": "אשל המצוי",
+      "description": "צמח גינה חזק ועמיד המתאים גם למרפסות שטופות שמש.",
+      "price": "67.16",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/698/500/500.jpg?hmac=uxgzs7vncEwTz_EgnEYOKyHj2OnHrgwu4DzufJlkNTY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 70"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/966/500/500.jpg?hmac=oGdKcKaNxPeQYOBIciLtIWBI-OqK_N_eoPODQp4iRR0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 70"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/78/500/500.jpg?hmac=LscBxrUb4H07PoDScWQHRrfYZYbVIQsu3ZGOg1WGJQ0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 70"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "אשל המצוי"
         },
         {
-          "url": "https://fastly.picsum.photos/id/53/500/500.jpg?hmac=8cx_zoIK3Y-QmkUUz0H-wQla8q6BX14wyExh0KyJHJc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 70"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%9C%D7%A7-%D7%A4%D7%A8%D7%99%D7%93%D7%99%D7%99-%D7%A4%D7%95%D7%A1%D7%98-1.jpg",
+          "altText": "אשל המצוי"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-70",
-      "price":"30.89"
-    },
-    {
-      "handle": "מנורת-גידול-2-2",
-      "collection": "מתנות",
-      "title": "מנורת גידול LED #2",
-      "description": "המוצר 'מנורת גידול LED #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/966/500/500.jpg?hmac=oGdKcKaNxPeQYOBIciLtIWBI-OqK_N_eoPODQp4iRR0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 71"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/966/500/500.jpg?hmac=oGdKcKaNxPeQYOBIciLtIWBI-OqK_N_eoPODQp4iRR0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 71"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/78/500/500.jpg?hmac=LscBxrUb4H07PoDScWQHRrfYZYbVIQsu3ZGOg1WGJQ0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 71"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/53/500/500.jpg?hmac=8cx_zoIK3Y-QmkUUz0H-wQla8q6BX14wyExh0KyJHJc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 71"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/315/500/500.jpg?hmac=AbWYq_roDJyGvETLXoklwv1TjHEIIamXL4Z03YNQtn0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 71"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-71",
-      "price":"67.69"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+        "altText": "אשל המצוי"
+      }
     },
     {
-      "handle": "קישוט-גינה-עם-אורות-2-2",
-      "collection": "עיצוב-הגינה",
-      "title": "קישוט גינה עם אורות #2",
-      "description": "המוצר 'קישוט גינה עם אורות #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/78/500/500.jpg?hmac=LscBxrUb4H07PoDScWQHRrfYZYbVIQsu3ZGOg1WGJQ0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 72"
-      },
-      "availableForSale": true,
+      "title": "דקל זהב",
+      "description": "דורש השקיה מתונה, שורד גם באקלים חם ויבש.",
+      "price": "75.71",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/78/500/500.jpg?hmac=LscBxrUb4H07PoDScWQHRrfYZYbVIQsu3ZGOg1WGJQ0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 72"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-M-800x800.jpg",
+          "altText": "דקל זהב"
         },
         {
-          "url": "https://fastly.picsum.photos/id/53/500/500.jpg?hmac=8cx_zoIK3Y-QmkUUz0H-wQla8q6BX14wyExh0KyJHJc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 72"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/315/500/500.jpg?hmac=AbWYq_roDJyGvETLXoklwv1TjHEIIamXL4Z03YNQtn0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 72"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-%D7%9C%D7%91%D7%9F-800x800.jpg",
+          "altText": "דקל זהב"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-72",
-      "price":"102.37"
-    },
-    {
-      "handle": "עץ-זית-קטן-2-2",
-      "collection": "צמחי-בית",
-      "title": "עץ זית קטן #2",
-      "description": "המוצר 'עץ זית קטן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/53/500/500.jpg?hmac=8cx_zoIK3Y-QmkUUz0H-wQla8q6BX14wyExh0KyJHJc",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 73"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/53/500/500.jpg?hmac=8cx_zoIK3Y-QmkUUz0H-wQla8q6BX14wyExh0KyJHJc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 73"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/315/500/500.jpg?hmac=AbWYq_roDJyGvETLXoklwv1TjHEIIamXL4Z03YNQtn0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 73"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/545/500/500.jpg?hmac=K4OWAwOqQdjSpTM41kKy26Ii0fXj6DRI51RAqr8emBk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 73"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 73"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-73",
-      "price":"66.15"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-M-800x800.jpg",
+        "altText": "דקל זהב"
+      }
     },
     {
-      "handle": "עץ-רימון-ננסי-2-2",
-      "collection": "דשנים-ואדמה",
-      "title": "עץ רימון ננסי #2",
-      "description": "המוצר 'עץ רימון ננסי #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/315/500/500.jpg?hmac=AbWYq_roDJyGvETLXoklwv1TjHEIIamXL4Z03YNQtn0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 74"
-      },
-      "availableForSale": true,
+      "title": "סנסיווריה",
+      "description": "העלים הירוקים בוהקים שלו מרהיבים במיוחד.",
+      "price": "56.38",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/315/500/500.jpg?hmac=AbWYq_roDJyGvETLXoklwv1TjHEIIamXL4Z03YNQtn0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 74"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/545/500/500.jpg?hmac=K4OWAwOqQdjSpTM41kKy26Ii0fXj6DRI51RAqr8emBk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 74"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-%D7%9C%D7%91%D7%9F-800x800.jpg",
+          "altText": "סנסיווריה"
         },
         {
-          "url": "https://fastly.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 74"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%9E%D7%92%D7%95%D7%95%D7%A0%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "סנסיווריה"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-74",
-      "price":"42.15"
-    },
-    {
-      "handle": "עץ-תפוח-בגידול-ביתי-2-2",
-      "collection": "צמחי-בית",
-      "title": "עץ תפוח בגידול ביתי #2",
-      "description": "המוצר 'עץ תפוח בגידול ביתי #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/545/500/500.jpg?hmac=K4OWAwOqQdjSpTM41kKy26Ii0fXj6DRI51RAqr8emBk",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 75"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/545/500/500.jpg?hmac=K4OWAwOqQdjSpTM41kKy26Ii0fXj6DRI51RAqr8emBk",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 75"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 75"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/654/500/500.jpg?hmac=kgpTNBLWV4m-_q3UocuHI4AjklIGOB5U_fE0mfErB88",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 75"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-75",
-      "price":"13.98"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-%D7%9C%D7%91%D7%9F-800x800.jpg",
+        "altText": "סנסיווריה"
+      }
     },
     {
-      "handle": "שתיל-עגבניות-2-2",
-      "collection": "צמחי-בית",
-      "title": "שתיל עגבניות #2",
-      "description": "המוצר 'שתיל עגבניות #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 76"
-      },
-      "availableForSale": true,
+      "title": "דרצנה",
+      "description": "מתאים לעציצים תלויים ונשפך בצורה אלגנטית.",
+      "price": "54.78",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/412/500/500.jpg?hmac=qKfvn_UA0PP65u0xBAnAEXUIUSH9EG-SgCbyfOGQjaE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 76"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/654/500/500.jpg?hmac=kgpTNBLWV4m-_q3UocuHI4AjklIGOB5U_fE0mfErB88",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 76"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/718/500/500.jpg?hmac=guJUsAxsai63V1hlhDUD0JenDvsN_vRj-ijSPsA3XAs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 76"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+          "altText": "דרצנה"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-76",
-      "price":"50.27"
-    },
-    {
-      "handle": "שתיל-פלפל-חריף-2-2",
-      "collection": "כלי-גינון",
-      "title": "שתיל פלפל חריף #2",
-      "description": "המוצר 'שתיל פלפל חריף #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/654/500/500.jpg?hmac=kgpTNBLWV4m-_q3UocuHI4AjklIGOB5U_fE0mfErB88",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 77"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/654/500/500.jpg?hmac=kgpTNBLWV4m-_q3UocuHI4AjklIGOB5U_fE0mfErB88",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 77"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-77",
-      "price":"145.71"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+        "altText": "דרצנה"
+      }
     },
     {
-      "handle": "שתיל-בזיליקום-2-2",
-      "collection": "עיצוב-הגינה",
-      "title": "שתיל בזיליקום #2",
-      "description": "המוצר 'שתיל בזיליקום #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/718/500/500.jpg?hmac=guJUsAxsai63V1hlhDUD0JenDvsN_vRj-ijSPsA3XAs",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 78"
-      },
-      "availableForSale": true,
+      "title": "אלוקסיה",
+      "description": "צמח קומפקטי שמתאים למדפים קטנים וחללים צרים.",
+      "price": "38.41",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/718/500/500.jpg?hmac=guJUsAxsai63V1hlhDUD0JenDvsN_vRj-ijSPsA3XAs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 78"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+          "altText": "אלוקסיה"
         },
         {
-          "url": "https://fastly.picsum.photos/id/120/500/500.jpg?hmac=s7K3Er5BzS7X73c31STVRCaHMDFx4EIH4CMIzyDwis8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 78"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+          "altText": "אלוקסיה"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-78",
-      "price":"133.69"
-    },
-    {
-      "handle": "סוקולנט-בצורת-לב-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "סוקולנט בצורת לב #2",
-      "description": "המוצר 'סוקולנט בצורת לב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/120/500/500.jpg?hmac=s7K3Er5BzS7X73c31STVRCaHMDFx4EIH4CMIzyDwis8",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 79"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/120/500/500.jpg?hmac=s7K3Er5BzS7X73c31STVRCaHMDFx4EIH4CMIzyDwis8",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 79"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-79",
-      "price":"75.31"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+        "altText": "אלוקסיה"
+      }
     },
     {
-      "handle": "פוטוס-זהוב-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "פוטוס זהוב #2",
-      "description": "המוצר 'פוטוס זהוב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/171/500/500.jpg?hmac=MCXIAr8YFm04Dt5GrbpOYzwu_60yAoQ-SIAZIRZU-So",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 80"
-      },
-      "availableForSale": true,
+      "title": "פלפל נוי",
+      "description": "נחשב לצמח מביא מזל ושפע לפי המסורת.",
+      "price": "119.79",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/171/500/500.jpg?hmac=MCXIAr8YFm04Dt5GrbpOYzwu_60yAoQ-SIAZIRZU-So",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 80"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+          "altText": "פלפל נוי"
         },
         {
-          "url": "https://fastly.picsum.photos/id/1077/500/500.jpg?hmac=G9rMQboDKXGgVzsfHSnMilGCILSw60o0KMqzqOnxrew",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 80"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+          "altText": "פלפל נוי"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-80",
-      "price":"48.75"
-    },
-    {
-      "handle": "דקל-ננסי-2-2",
-      "collection": "מתנות",
-      "title": "דקל ננסי #2",
-      "description": "המוצר 'דקל ננסי #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1077/500/500.jpg?hmac=G9rMQboDKXGgVzsfHSnMilGCILSw60o0KMqzqOnxrew",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 81"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1077/500/500.jpg?hmac=G9rMQboDKXGgVzsfHSnMilGCILSw60o0KMqzqOnxrew",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 81"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/591/500/500.jpg?hmac=zxF8U9WlK6KezfMa92WuWUCdt2hNr828JqLBFlLueU0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 81"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/230/500/500.jpg?hmac=Dl0gFRz3E4HI8CWxnaQKSLdbEjjqAhsszIW772MoToM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 81"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-81",
-      "price":"39.15"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+        "altText": "פלפל נוי"
+      }
     },
     {
-      "handle": "קקטוס-פריחה-2-2",
-      "collection": "מתנות",
-      "title": "קקטוס פריחה #2",
-      "description": "המוצר 'קקטוס פריחה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/591/500/500.jpg?hmac=zxF8U9WlK6KezfMa92WuWUCdt2hNr828JqLBFlLueU0",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 82"
-      },
-      "availableForSale": true,
+      "title": "ביגוניה",
+      "description": "צמח בית קלאסי הדורש תחזוקה מינימלית ומוסיף ירוק לחלל.",
+      "price": "71.47",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/591/500/500.jpg?hmac=zxF8U9WlK6KezfMa92WuWUCdt2hNr828JqLBFlLueU0",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 82"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C-M-800x800.jpg",
+          "altText": "ביגוניה"
         },
         {
-          "url": "https://fastly.picsum.photos/id/230/500/500.jpg?hmac=Dl0gFRz3E4HI8CWxnaQKSLdbEjjqAhsszIW772MoToM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 82"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "ביגוניה"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-82",
-      "price":"131.66"
-    },
-    {
-      "handle": "קישוטי-עץ-טבעיים-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "קישוטי עץ טבעיים #2",
-      "description": "המוצר 'קישוטי עץ טבעיים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/230/500/500.jpg?hmac=Dl0gFRz3E4HI8CWxnaQKSLdbEjjqAhsszIW772MoToM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 83"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/230/500/500.jpg?hmac=Dl0gFRz3E4HI8CWxnaQKSLdbEjjqAhsszIW772MoToM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 83"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/331/500/500.jpg?hmac=0FFpRZ0BS73LXeHgN8lEEutHN42SiDgh6EaB42V7tiU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 83"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/32/500/500.jpg?hmac=86FEqhvXyxxme4FgaTbH6jvuyREKzGILn-5Ub25aURE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 83"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/848/500/500.jpg?hmac=Dyl9QTzYSUHeVxzrDD1wP3w1-9YCx92hJx5MIq5skDY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 83"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-83",
-      "price":"120.68"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C-M-800x800.jpg",
+        "altText": "ביגוניה"
+      }
     },
     {
-      "handle": "אדנית-תלייה-צבעונית-2-2",
-      "collection": "צמחי-חוץ",
-      "title": "אדנית תלייה צבעונית #2",
-      "description": "המוצר 'אדנית תלייה צבעונית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/331/500/500.jpg?hmac=0FFpRZ0BS73LXeHgN8lEEutHN42SiDgh6EaB42V7tiU",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 84"
-      },
-      "availableForSale": true,
+      "title": "קקטוס מדברי",
+      "description": "מטהר אוויר טבעי המתאים לחללים מוצלים ובהירים.",
+      "price": "102.83",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/331/500/500.jpg?hmac=0FFpRZ0BS73LXeHgN8lEEutHN42SiDgh6EaB42V7tiU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 84"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/32/500/500.jpg?hmac=86FEqhvXyxxme4FgaTbH6jvuyREKzGILn-5Ub25aURE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 84"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/848/500/500.jpg?hmac=Dyl9QTzYSUHeVxzrDD1wP3w1-9YCx92hJx5MIq5skDY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 84"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/369/500/500.jpg?hmac=STU-BqFhIzXCboTJTIWy8cT1dsE7LvHE2SXKH5GLr4Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 84"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%9C%D7%A7-%D7%A4%D7%A8%D7%99%D7%93%D7%99%D7%99-%D7%A4%D7%95%D7%A1%D7%98-1.jpg",
+          "altText": "קקטוס מדברי"
         },
         {
-          "url": "https://fastly.picsum.photos/id/306/500/500.jpg?hmac=xYmmVM0OCIBaM2cAGgCptS5KceVD00yx9GDgy8NTcog",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 84"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "קקטוס מדברי"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-84",
-      "price":"85.87"
-    },
-    {
-      "handle": "כלי-דישון-2-2",
-      "collection": "מתנות",
-      "title": "כלי דישון #2",
-      "description": "המוצר 'כלי דישון #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/32/500/500.jpg?hmac=86FEqhvXyxxme4FgaTbH6jvuyREKzGILn-5Ub25aURE",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 85"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/32/500/500.jpg?hmac=86FEqhvXyxxme4FgaTbH6jvuyREKzGILn-5Ub25aURE",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 85"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/848/500/500.jpg?hmac=Dyl9QTzYSUHeVxzrDD1wP3w1-9YCx92hJx5MIq5skDY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 85"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/369/500/500.jpg?hmac=STU-BqFhIzXCboTJTIWy8cT1dsE7LvHE2SXKH5GLr4Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 85"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-85",
-      "price":"70.24"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%9C%D7%A7-%D7%A4%D7%A8%D7%99%D7%93%D7%99%D7%99-%D7%A4%D7%95%D7%A1%D7%98-1.jpg",
+        "altText": "קקטוס מדברי"
+      }
     },
     {
-      "handle": "מרסס-מים-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "מרסס מים #2",
-      "description": "המוצר 'מרסס מים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/848/500/500.jpg?hmac=Dyl9QTzYSUHeVxzrDD1wP3w1-9YCx92hJx5MIq5skDY",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 86"
-      },
-      "availableForSale": true,
+      "title": "רוזמרין נוי",
+      "description": "מוסיף נופך ירוק ורענן, דורש השקיה מועטה ואור עקיף.",
+      "price": "59.93",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/848/500/500.jpg?hmac=Dyl9QTzYSUHeVxzrDD1wP3w1-9YCx92hJx5MIq5skDY",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 86"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/369/500/500.jpg?hmac=STU-BqFhIzXCboTJTIWy8cT1dsE7LvHE2SXKH5GLr4Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 86"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%9E%D7%92%D7%95%D7%95%D7%A0%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "רוזמרין נוי"
         },
         {
-          "url": "https://fastly.picsum.photos/id/306/500/500.jpg?hmac=xYmmVM0OCIBaM2cAGgCptS5KceVD00yx9GDgy8NTcog",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 86"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+          "altText": "רוזמרין נוי"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-86",
-      "price":"24.96"
-    },
-    {
-      "handle": "מיכל-השקיה-2-2",
-      "collection": "עשבי-תיבול",
-      "title": "מיכל השקיה #2",
-      "description": "המוצר 'מיכל השקיה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/369/500/500.jpg?hmac=STU-BqFhIzXCboTJTIWy8cT1dsE7LvHE2SXKH5GLr4Q",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 87"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/369/500/500.jpg?hmac=STU-BqFhIzXCboTJTIWy8cT1dsE7LvHE2SXKH5GLr4Q",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 87"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/306/500/500.jpg?hmac=xYmmVM0OCIBaM2cAGgCptS5KceVD00yx9GDgy8NTcog",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 87"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/471/500/500.jpg?hmac=AMDsZc3bZ60RQCvCvhvVVuwzyVSqH3c0ZokUeWbNoVU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 87"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-87",
-      "price":"85.56"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%9E%D7%92%D7%95%D7%95%D7%A0%D7%AA-Hoya-M-800x800.jpg",
+        "altText": "רוזמרין נוי"
+      }
     },
     {
-      "handle": "צמח-נענע-מרענן-2-2",
-      "collection": "עציצים-ואדניות",
-      "title": "צמח נענע מרענן #2",
-      "description": "המוצר 'צמח נענע מרענן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/306/500/500.jpg?hmac=xYmmVM0OCIBaM2cAGgCptS5KceVD00yx9GDgy8NTcog",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 88"
-      },
-      "availableForSale": true,
+      "title": "לבנדר עציץ",
+      "description": "אידיאלי למשרדים וחללים פנימיים בזכות המראה המודרני.",
+      "price": "35.74",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/306/500/500.jpg?hmac=xYmmVM0OCIBaM2cAGgCptS5KceVD00yx9GDgy8NTcog",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 88"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "לבנדר עציץ"
         },
         {
-          "url": "https://fastly.picsum.photos/id/471/500/500.jpg?hmac=AMDsZc3bZ60RQCvCvhvVVuwzyVSqH3c0ZokUeWbNoVU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 88"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/778/500/500.jpg?hmac=jZLZ6WV_OGRxAIIYPk7vGRabcAGAILzxVxhqSH9uLas",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 88"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/249/500/500.jpg?hmac=ZmYf-jLyT_wczYDejsW--LqTOTei7xRELmO4SJgvMfs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 88"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+          "altText": "לבנדר עציץ"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-88",
-      "price":"43.45"
-    },
-    {
-      "handle": "עציץ-רוזמרין-2-2",
-      "collection": "צמחי-חוץ",
-      "title": "עציץ רוזמרין #2",
-      "description": "המוצר 'עציץ רוזמרין #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/471/500/500.jpg?hmac=AMDsZc3bZ60RQCvCvhvVVuwzyVSqH3c0ZokUeWbNoVU",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 89"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/471/500/500.jpg?hmac=AMDsZc3bZ60RQCvCvhvVVuwzyVSqH3c0ZokUeWbNoVU",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 89"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/778/500/500.jpg?hmac=jZLZ6WV_OGRxAIIYPk7vGRabcAGAILzxVxhqSH9uLas",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 89"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/249/500/500.jpg?hmac=ZmYf-jLyT_wczYDejsW--LqTOTei7xRELmO4SJgvMfs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 89"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/268/500/500.jpg?hmac=r-0APcoPbU3x8RzPNFDB1dwGUSl2Uh4ybCV6dEKUvxo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 89"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-89",
-      "price":"132.5"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+        "altText": "לבנדר עציץ"
+      }
     },
     {
-      "handle": "גזם-תפוחי-אדמה-2-2",
-      "collection": "מתנות",
-      "title": "גזם תפוחי אדמה #2",
-      "description": "המוצר 'גזם תפוחי אדמה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/778/500/500.jpg?hmac=jZLZ6WV_OGRxAIIYPk7vGRabcAGAILzxVxhqSH9uLas",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 90"
-      },
-      "availableForSale": true,
+      "title": "נענע משובצת",
+      "description": "צמח גינה חזק ועמיד המתאים גם למרפסות שטופות שמש.",
+      "price": "34.95",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/778/500/500.jpg?hmac=jZLZ6WV_OGRxAIIYPk7vGRabcAGAILzxVxhqSH9uLas",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 90"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/249/500/500.jpg?hmac=ZmYf-jLyT_wczYDejsW--LqTOTei7xRELmO4SJgvMfs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 90"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/268/500/500.jpg?hmac=r-0APcoPbU3x8RzPNFDB1dwGUSl2Uh4ybCV6dEKUvxo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 90"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-M-800x800.jpg",
+          "altText": "נענע משובצת"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-90",
-      "price":"45.53"
-    },
-    {
-      "handle": "פוטוס-מטפס-2-3",
-      "collection": "עיצוב-הגינה",
-      "title": "פוטוס מטפס #2",
-      "description": "המוצר 'פוטוס מטפס #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/249/500/500.jpg?hmac=ZmYf-jLyT_wczYDejsW--LqTOTei7xRELmO4SJgvMfs",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 91"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/249/500/500.jpg?hmac=ZmYf-jLyT_wczYDejsW--LqTOTei7xRELmO4SJgvMfs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 91"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/268/500/500.jpg?hmac=r-0APcoPbU3x8RzPNFDB1dwGUSl2Uh4ybCV6dEKUvxo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 91"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/19/500/500.jpg?hmac=xBWDwhm8Tc1r2q-K5_u3E65nyLoU7rSX6WWUHCeJZbw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 91"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/518/500/500.jpg?hmac=PrrOHMRDF_jUhrcQVpJo0afLvH8yft6HA4veoxgfWmw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 91"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/878/500/500.jpg?hmac=jrsXtoZttXpgs9ie43un2PsJVpe4evGLGDVpVfUXJFc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 91"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-91",
-      "price":"90.42"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-M-800x800.jpg",
+        "altText": "נענע משובצת"
+      }
     },
     {
-      "handle": "סוקולנט-ירוק-2-3",
-      "collection": "עשבי-תיבול",
-      "title": "סוקולנט ירוק #2",
-      "description": "המוצר 'סוקולנט ירוק #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/268/500/500.jpg?hmac=r-0APcoPbU3x8RzPNFDB1dwGUSl2Uh4ybCV6dEKUvxo",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 92"
-      },
-      "availableForSale": true,
+      "title": "גרניום ריחני",
+      "description": "דורש השקיה מתונה, שורד גם באקלים חם ויבש.",
+      "price": "49.08",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/268/500/500.jpg?hmac=r-0APcoPbU3x8RzPNFDB1dwGUSl2Uh4ybCV6dEKUvxo",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 92"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-%D7%9C%D7%91%D7%9F-800x800.jpg",
+          "altText": "גרניום ריחני"
         },
         {
-          "url": "https://fastly.picsum.photos/id/19/500/500.jpg?hmac=xBWDwhm8Tc1r2q-K5_u3E65nyLoU7rSX6WWUHCeJZbw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 92"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/518/500/500.jpg?hmac=PrrOHMRDF_jUhrcQVpJo0afLvH8yft6HA4veoxgfWmw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 92"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-M-800x800.jpg",
+          "altText": "גרניום ריחני"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-92",
-      "price":"80.96"
-    },
-    {
-      "handle": "קקטוס-קטן-2-3",
-      "collection": "עיצוב-הגינה",
-      "title": "קקטוס קטן #2",
-      "description": "המוצר 'קקטוס קטן #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/19/500/500.jpg?hmac=xBWDwhm8Tc1r2q-K5_u3E65nyLoU7rSX6WWUHCeJZbw",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 93"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/19/500/500.jpg?hmac=xBWDwhm8Tc1r2q-K5_u3E65nyLoU7rSX6WWUHCeJZbw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 93"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/518/500/500.jpg?hmac=PrrOHMRDF_jUhrcQVpJo0afLvH8yft6HA4veoxgfWmw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 93"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/878/500/500.jpg?hmac=jrsXtoZttXpgs9ie43un2PsJVpe4evGLGDVpVfUXJFc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 93"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/164/500/500.jpg?hmac=UkssNxw5xFhuAWPK8GqUQkk6nqUss579NUlewt838LM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 93"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/1014/500/500.jpg?hmac=IzRie6X2O3Z3eNoIESSHwScKgUrmrQ2ozOVNmeTT9g4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 93"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-93",
-      "price":"148.28"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-%D7%9C%D7%91%D7%9F-800x800.jpg",
+        "altText": "גרניום ריחני"
+      }
     },
     {
-      "handle": "אדנית-קרמית-2-3",
-      "collection": "מתנות",
-      "title": "אדנית קרמית #2",
-      "description": "המוצר 'אדנית קרמית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/518/500/500.jpg?hmac=PrrOHMRDF_jUhrcQVpJo0afLvH8yft6HA4veoxgfWmw",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 94"
-      },
-      "availableForSale": true,
+      "title": "זית בנוי",
+      "description": "העלים הירוקים בוהקים שלו מרהיבים במיוחד.",
+      "price": "44.16",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/518/500/500.jpg?hmac=PrrOHMRDF_jUhrcQVpJo0afLvH8yft6HA4veoxgfWmw",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 94"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+          "altText": "זית בנוי"
         },
         {
-          "url": "https://fastly.picsum.photos/id/878/500/500.jpg?hmac=jrsXtoZttXpgs9ie43un2PsJVpe4evGLGDVpVfUXJFc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 94"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A4%D7%95%D7%98%D7%95%D7%A1-%D7%9C%D7%91%D7%9F-800x800.jpg",
+          "altText": "זית בנוי"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-94",
-      "price":"46.22"
-    },
-    {
-      "handle": "דשן-לצמיחה-2-3",
-      "collection": "צמחי-חוץ",
-      "title": "דשן לצמיחה #2",
-      "description": "המוצר 'דשן לצמיחה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/878/500/500.jpg?hmac=jrsXtoZttXpgs9ie43un2PsJVpe4evGLGDVpVfUXJFc",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 95"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/878/500/500.jpg?hmac=jrsXtoZttXpgs9ie43un2PsJVpe4evGLGDVpVfUXJFc",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 95"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/164/500/500.jpg?hmac=UkssNxw5xFhuAWPK8GqUQkk6nqUss579NUlewt838LM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 95"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-95",
-      "price":"75.15"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+        "altText": "זית בנוי"
+      }
     },
     {
-      "handle": "כלי-שתילה-מעוצב-2-3",
-      "collection": "צמחי-חוץ",
-      "title": "כלי שתילה מעוצב #2",
-      "description": "המוצר 'כלי שתילה מעוצב #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/164/500/500.jpg?hmac=UkssNxw5xFhuAWPK8GqUQkk6nqUss579NUlewt838LM",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 96"
-      },
-      "availableForSale": true,
+      "title": "שיבא ירוקה",
+      "description": "מתאים לעציצים תלויים ונשפך בצורה אלגנטית.",
+      "price": "111.03",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/164/500/500.jpg?hmac=UkssNxw5xFhuAWPK8GqUQkk6nqUss579NUlewt838LM",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 96"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+          "altText": "שיבא ירוקה"
         },
         {
-          "url": "https://fastly.picsum.photos/id/1014/500/500.jpg?hmac=IzRie6X2O3Z3eNoIESSHwScKgUrmrQ2ozOVNmeTT9g4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 96"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-L-800x800.jpg",
+          "altText": "שיבא ירוקה"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-96",
-      "price":"13.25"
-    },
-    {
-      "handle": "סט-כלים-לגינון-2-3",
-      "collection": "עשבי-תיבול",
-      "title": "סט כלים לגינון #2",
-      "description": "המוצר 'סט כלים לגינון #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/1014/500/500.jpg?hmac=IzRie6X2O3Z3eNoIESSHwScKgUrmrQ2ozOVNmeTT9g4",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 97"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/1014/500/500.jpg?hmac=IzRie6X2O3Z3eNoIESSHwScKgUrmrQ2ozOVNmeTT9g4",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 97"
-        },
-        {
-          "url": "https://fastly.picsum.photos/id/809/500/500.jpg?hmac=43lNB4aPEU6nDhvct1f6S9yEIvjc3ICLGPFcSFIckSs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 97"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-97",
-      "price":"54.16"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+        "altText": "שיבא ירוקה"
+      }
     },
     {
-      "handle": "נענע-טרייה-2-3",
-      "collection": "צמחי-בית",
-      "title": "נענע טרייה #2",
-      "description": "המוצר 'נענע טרייה #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/809/500/500.jpg?hmac=43lNB4aPEU6nDhvct1f6S9yEIvjc3ICLGPFcSFIckSs",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 98"
-      },
-      "availableForSale": true,
+      "title": "פפרומיה",
+      "description": "צמח קומפקטי שמתאים למדפים קטנים וחללים צרים.",
+      "price": "57.29",
       "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/809/500/500.jpg?hmac=43lNB4aPEU6nDhvct1f6S9yEIvjc3ICLGPFcSFIckSs",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 98"
-        },
         {
-          "url": "https://fastly.picsum.photos/id/354/500/500.jpg?hmac=FcHIgT6i78_JcALBkt5QT6H3gfOtXoWcvFCRaLpdoRg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 98"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+          "altText": "פפרומיה"
         },
         {
-          "url": "https://fastly.picsum.photos/id/744/500/500.jpg?hmac=--mE5rhbp6mrgNmP4FAJzWMIlzrJkFv0FPQlsRUbpws",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 98"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%91%D7%AA-%D7%A9%D7%91%D7%A2-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-Hoya-M-800x800.jpg",
+          "altText": "פפרומיה"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-98",
-      "price":"47.4"
+      "featuredImage": {
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-800x800.jpg",
+        "altText": "פפרומיה"
+      }
     },
     {
-      "handle": "אדמת-שתילה-איכותית-2-3",
-      "collection": "צמחי-חוץ",
-      "title": "אדמת שתילה איכותית #2",
-      "description": "המוצר 'אדמת שתילה איכותית #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
-      "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/354/500/500.jpg?hmac=FcHIgT6i78_JcALBkt5QT6H3gfOtXoWcvFCRaLpdoRg",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 99"
-      },
-      "availableForSale": true,
+      "title": "מרווה ריחנית",
+      "description": "נחשב לצמח מביא מזל ושפע לפי המסורת.",
+      "price": "63.98",
       "images": [
         {
-          "url": "https://fastly.picsum.photos/id/354/500/500.jpg?hmac=FcHIgT6i78_JcALBkt5QT6H3gfOtXoWcvFCRaLpdoRg",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 99"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C-M-800x800.jpg",
+          "altText": "מרווה ריחנית"
         },
         {
-          "url": "https://fastly.picsum.photos/id/744/500/500.jpg?hmac=--mE5rhbp6mrgNmP4FAJzWMIlzrJkFv0FPQlsRUbpws",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 99"
+          "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%A9%D7%A8%D7%9A-%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F-%D7%AA%D7%A7%D7%A8%D7%99%D7%91-1-800x800.jpg",
+          "altText": "מרווה ריחנית"
         }
       ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-99",
-      "price":"107.36"
-    },
-    {
-      "handle": "מעמד-עץ-לצמחים-2-3",
-      "collection": "דשנים-ואדמה",
-      "title": "מעמד עץ לצמחים #2",
-      "description": "המוצר 'מעמד עץ לצמחים #2' מושלם לגינה או לבית שלך.",
-      "tags": [],
       "featuredImage": {
-        "url": "https://fastly.picsum.photos/id/744/500/500.jpg?hmac=--mE5rhbp6mrgNmP4FAJzWMIlzrJkFv0FPQlsRUbpws",
-        "width": 300,
-        "height": 500,
-        "altText": "Mock Product 100"
-      },
-      "availableForSale": true,
-      "images": [
-        {
-          "url": "https://fastly.picsum.photos/id/744/500/500.jpg?hmac=--mE5rhbp6mrgNmP4FAJzWMIlzrJkFv0FPQlsRUbpws",
-          "width": 300,
-          "height": 500,
-          "altText": "Mock Product 100"
-        }
-      ],
-      "updatedAt": "2025-04-22T10:18:27Z",
-      "id": "mock-product-100",
-      "price":"48.42"
+        "url": "https://racit0uja2cckwpw.public.blob.vercel-storage.com/products/%D7%90%D7%A9%D7%99%D7%A0%D7%A0%D7%98%D7%95%D7%A1-%D7%A8%D7%90%D7%A1%D7%98%D7%94-%D7%9E%D7%A1%D7%95%D7%9C%D7%A1%D7%9C-M-800x800.jpg",
+        "altText": "מרווה ריחנית"
+      }
     }
   ],
   "collections": [
     {
-      "handle": "הכל",
-      "title": "הכל",
-      "path": "/",
-      "updatedAt": "2025-04-22T10:18:27Z"
+      "title": "עשבי תיבול"
     },
     {
-      "handle": "צמחי-חוץ",
-      "title": "צמחי חוץ",
-      "path": "/collection/צמחי-חוץ",
-      "updatedAt": "2025-04-22T10:18:27Z"
+      "title": "צמחי בית"
     },
     {
-      "handle": "עציצים-ואדניות",
-      "title": "עציצים ואדניות",
-      "path": "/collection/עציצים-ואדניות",
-      "updatedAt": "2025-04-22T10:18:27Z"
+      "title": "דשנים ואדמה"
     },
     {
-      "handle": "כלי-גינון",
-      "title": "כלי גינון",
-      "path": "/collection/כלי-גינון",
-      "updatedAt": "2025-04-22T10:18:27Z"
-    },
-    {
-      "handle": "עשבי-תיבול",
-      "title": "עשבי תיבול",
-      "path": "/collection/עשבי-תיבול",
-      "updatedAt": "2025-04-22T10:18:27Z"
-    },
-    {
-      "handle": "צמחי-בית",
-      "title": "צמחי בית",
-      "path": "/collection/צמחי-בית",
-      "updatedAt": "2025-04-22T10:18:27Z"
-    },
-    {
-      "handle": "דשנים-ואדמה",
-      "title": "דשנים ואדמה",
-      "path": "/collection/דשנים-ואדמה",
-      "updatedAt": "2025-04-22T10:18:27Z"
-    },
-    {
-      "handle": "עיצוב-הגינה",
-      "title": "עיצוב הגינה",
-      "path": "/collection/עיצוב-הגינה",
-      "updatedAt": "2025-04-22T10:18:27Z"
-    },
-    {
-      "handle": "מתנות",
-      "title": "מתנות",
-      "path": "/collection/מתנות",
-      "updatedAt": "2025-04-22T10:18:27Z"
+      "title": "צמחי חוץ"
     }
   ]
 }

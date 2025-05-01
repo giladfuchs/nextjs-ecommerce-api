@@ -19,6 +19,9 @@ export class Collection {
     @Column('varchar', { unique: true })
     handle!: string;
 
+    @Column('int')
+    position!: number;
+
     @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
     updatedAt!: Date;
 }
@@ -35,7 +38,7 @@ export class Product {
     collection!: string;
 
     @Column('boolean')
-    availableForSale!: boolean;
+    available!: boolean;
 
     @Column('varchar')
     title!: string;

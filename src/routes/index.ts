@@ -50,7 +50,7 @@ router.get('/data', async (req: Request, res: Response) => {
     try {
         const [products, collections] = await Promise.all([
             DB.getRepository(Product).find({ relations: ['images'] }),
-            DB.getRepository(Collection).find(),
+            DB.getRepository(Collection).find({ order: { position: 'ASC' } }),
         ]);
 
         const formattedProducts = products.map((product: Product) => {
@@ -59,7 +59,7 @@ router.get('/data', async (req: Request, res: Response) => {
                 id: product.id,
                 handle: product.handle,
                 collection: product.collection,
-                availableForSale: product.availableForSale,
+                available: product.available,
                 title: product.title,
                 description: product.description,
                 price: product.price.toString(),

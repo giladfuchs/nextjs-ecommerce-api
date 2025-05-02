@@ -45,7 +45,10 @@ router.post('/image', upload.single('image'), async (req: Request, res: Response
         res.json({ url: blob.url });
     } catch (err) {
         console.error('❌ Upload error:', err);
-        res.status(500).json({ error: 'Upload failed' });
+        res.status(500).json({
+            error: 'Upload failed',
+            message: err instanceof Error ? err.message : String(err),
+        });
     }
 });
 

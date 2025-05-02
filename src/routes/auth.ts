@@ -52,6 +52,28 @@ router.post('/image', upload.single('image'), async (req: Request, res: Response
     }
 });
 
+router.get('/order/:id', async (req: Request, res: Response) => {
+    try {
+        const id = Number(req.params.id);
+        if (isNaN(id)) {
+            return res.status(400).json({ error: 'Invalid order ID' });
+        }
+
+        const order = await DB.getRepository(Order).findOne({
+            where: { id },
+            relations: ['items'], // fetch nested items
+        });
+
+        if (!order) {
+            return res.status(404).json({ error: 'Order not found' });
+        }
+
+        res.json(order);
+    } catch (err) {
+        console.error('❌ Failed to fetch order:', err);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+});
 router.get('/orders', async (req: Request, res: Response) => {
     try {
         const orders = await DB.getRepository(Order).find({

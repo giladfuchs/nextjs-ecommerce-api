@@ -1,6 +1,8 @@
 import {Request, Response, Router} from 'express';
+import bcrypt from "bcrypt";
+
 import {DB} from '../db';
-import {Product, Collection, OrderItem, Order} from '../entities';
+import {Product, Collection, OrderItem, Order, User} from '../entities';
 
 const router = Router();
 
@@ -59,6 +61,30 @@ router.get('/data', async (req: Request, res: Response) => {
         console.error('❌ Failed to fetch data:', err);
         res.status(500).json({error: 'Internal Server Error'});
     }
+});
+
+router.post('/login', async (req, res) => {
+    const {username, password} = req.body;
+
+    const user = await DB.getRepository(User).findOneBy({name: username});
+    if (!user) {
+        return res.status(401).json({error: 'Invalid credentials'});
+    }
+
+    const isMatch = await bcrypt.compare(password, user.password);
+    if (!isMatch) {
+        return res.status(401).json({error: 'Invalid credentials'});
+    }
+
+    // Mock token (you can replace with JWT later)
+    res.cookie('token', 'mock-token', {
+        httpOnly: false,
+        sameSite: 'lax',
+        secure: false,
+        maxAge: 86400000 // 1 day
+    });
+
+    res.json({message: 'Login successful'});
 });
 
 export default router;

@@ -1,6 +1,6 @@
 import dotenv from 'dotenv';
 import {DataSource, DataSourceOptions} from 'typeorm';
-import {Collection, Order, OrderItem, Product, ProductImage} from './entities';
+import {Collection, Order, OrderItem, Product, ProductImage, User} from './entities';
 import { Request, Response, NextFunction } from 'express';
 
 dotenv.config();
@@ -14,7 +14,7 @@ export const DB = new DataSource({
     database: process.env.DB_NAME,
     synchronize: true,
     logging: false,
-    entities: [Product, Collection, ProductImage,Order,OrderItem],
+    entities: [Product, Collection, ProductImage,Order,OrderItem, User],
 } as DataSourceOptions);
 
 

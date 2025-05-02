@@ -2,16 +2,13 @@
 import "reflect-metadata";
 
 // @ts-ignore
-import mockData from "./mock_products.json";
+import mockData from "./data/mock_products.json";
 import {Product, ProductImage, Collection} from "../src/entities";
 import {DB} from "../src/db";
 import {title_to_handle} from "../src/util";
 
 
-async function dropTables() {
-    await DB.dropDatabase();
-    await DB.synchronize();
-}
+
 
 async function resetTables() {
     const em = DB.manager;

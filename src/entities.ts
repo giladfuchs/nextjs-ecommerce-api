@@ -144,3 +144,19 @@ export class OrderItem {
     @ManyToOne(() => Order, (order) => order.items)
     order!: Order;
 }
+
+
+@Entity()
+export class User {
+    @PrimaryGeneratedColumn()
+    id!: number;
+
+    @Column('varchar')
+    name!: string;
+
+    @Column('varchar', { unique: true })
+    email!: string;
+
+    @Column('varchar')
+    password!: string;
+}

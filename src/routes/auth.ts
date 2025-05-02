@@ -1,6 +1,9 @@
 import {Request, Response, Router} from 'express';
 import multer from 'multer';
 import {put} from '@vercel/blob';
+import path from 'path';
+import sharp from 'sharp';
+
 import {DB} from '../db';
 import {Product, Collection, ProductImage, Order} from '../entities';
 import {title_to_handle} from "../util";
@@ -19,27 +22,33 @@ const modelMap = {
 router.post('/image', upload.single('image'), async (req: Request, res: Response) => {
     try {
         const file = req.file;
-
-        if (!file) {
-            return res.status(400).json({error: 'No image uploaded'});
-        }
-        if (!file.mimetype.startsWith('image/')) {
+        if (!file) return res.status(400).json({ error: 'No image uploaded' });
+        if (!file.mimetype.startsWith('image/'))
             return res.status(400).json({ error: 'Only image files are allowed' });
-        }
 
+        const safeFileName = path.basename(file.originalname);
 
-        const blob = await put(`products/${file.originalname}`,  file.buffer, {
+        const resizedBuffer = await sharp(file.buffer)
+            .resize(500, 500, {
+                fit: 'cover',
+                position: 'top',
+            })
+            .withMetadata({ orientation: undefined })
+            .jpeg({ quality: 80 })
+            .toBuffer();
+
+        const blob = await put(`products/${safeFileName}`, resizedBuffer, {
             access: 'public',
             allowOverwrite: true,
-
         });
 
-        res.json({url: blob.url});
+        res.json({ url: blob.url });
     } catch (err) {
         console.error('❌ Upload error:', err);
-        res.status(500).json({error: 'Upload failed'});
+        res.status(500).json({ error: 'Upload failed' });
     }
 });
+
 router.get('/orders', async (req: Request, res: Response) => {
     try {
         const orders = await DB.getRepository(Order).find({

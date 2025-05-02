@@ -1,8 +1,13 @@
 import {Request, Response, Router} from 'express';
 import {DB} from '../db';
 import {Product, Collection, ProductImage, Order} from '../entities';
+import {title_to_handle} from "../util";
+
+import multer from 'multer';
+import {put} from '@vercel/blob';
 
 const router = Router();
+const upload = multer();
 
 // Model lookup
 const modelMap = {
@@ -10,19 +15,36 @@ const modelMap = {
     collection: Collection,
 };
 
-import {ProductImage} from '../entities';
-import {title_to_handle} from "../util";
+
+router.post('/image', upload.single('image'), async (req: Request, res: Response) => {
+    try {
+        const file = req.file;
+
+        if (!file) {
+            return res.status(400).json({error: 'No image file uploaded'});
+        }
+
+        const blob = await put(`products/${file.originalname}`, file.buffer, {
+            access: 'public',
+        });
+
+        res.json({url: blob.url});
+    } catch (err) {
+        console.error('❌ Upload error:', err);
+        res.status(500).json({error: 'Upload failed'});
+    }
+});
 router.get('/orders', async (req: Request, res: Response) => {
     try {
         const orders = await DB.getRepository(Order).find({
             relations: ['items'], // adjust if your relation is named differently
-            order: { createdAt: 'DESC' },
+            order: {createdAt: 'DESC'},
         });
 
         res.json(orders);
     } catch (err) {
         console.error('❌ Failed to fetch orders:', err);
-        res.status(500).json({ error: 'Internal Server Error' });
+        res.status(500).json({error: 'Internal Server Error'});
     }
 });
 router.post('/:model/:add_or_id', async (req: Request, res: Response) => {

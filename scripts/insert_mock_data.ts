@@ -1,6 +1,5 @@
 // TypeORM version of your Supabase mock insert script
 import "reflect-metadata";
-import {DataSource} from "typeorm";
 
 // @ts-ignore
 import mockData from "./mock_products.json";

@@ -1,10 +1,10 @@
 import {Request, Response, Router} from 'express';
+import multer from 'multer';
+import {put} from '@vercel/blob';
 import {DB} from '../db';
 import {Product, Collection, ProductImage, Order} from '../entities';
 import {title_to_handle} from "../util";
 
-import multer from 'multer';
-import {put} from '@vercel/blob';
 
 const router = Router();
 const upload = multer();
@@ -21,11 +21,17 @@ router.post('/image', upload.single('image'), async (req: Request, res: Response
         const file = req.file;
 
         if (!file) {
-            return res.status(400).json({error: 'No image file uploaded'});
+            return res.status(400).json({error: 'No image uploaded'});
+        }
+        if (!file.mimetype.startsWith('image/')) {
+            return res.status(400).json({ error: 'Only image files are allowed' });
         }
 
-        const blob = await put(`products/${file.originalname}`, file.buffer, {
+
+        const blob = await put(`products/${file.originalname}`,  file.buffer, {
             access: 'public',
+            allowOverwrite: true,
+
         });
 
         res.json({url: blob.url});

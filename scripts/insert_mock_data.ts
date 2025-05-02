@@ -73,4 +73,4 @@ DB.initialize()
         console.error("❌ Failed to run seed script", err);
         process.exit(1);
     });
-// npx tsx  scripts/ORM.ts
+//  npx tsx  scripts/insert_mock_data.ts

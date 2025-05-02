@@ -7,6 +7,7 @@ import {
     PrimaryGeneratedColumn,
     CreateDateColumn
 } from 'typeorm';
+import {OrderStatus} from "./util";
 
 @Entity()
 export class Collection {
@@ -16,13 +17,13 @@ export class Collection {
     @Column('varchar')
     title!: string;
 
-    @Column('varchar', { unique: true })
+    @Column('varchar', {unique: true})
     handle!: string;
 
     @Column('int')
     position!: number;
 
-    @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
+    @Column({type: 'timestamp', default: () => 'CURRENT_TIMESTAMP'})
     updatedAt!: Date;
 }
 
@@ -31,7 +32,7 @@ export class Product {
     @PrimaryGeneratedColumn()
     id!: number;
 
-    @Column('varchar', { unique: true })
+    @Column('varchar', {unique: true})
     handle!: string;
 
     @Column('varchar')
@@ -49,7 +50,7 @@ export class Product {
     @Column('numeric')
     price!: number;
 
-    @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
+    @Column({type: 'timestamp', default: () => 'CURRENT_TIMESTAMP'})
     updatedAt!: Date;
 
     @OneToMany(() => ProductImage, (image) => image.product)
@@ -70,7 +71,7 @@ export class ProductImage {
     @ManyToOne(() => Product, (product) => product.images, {
         onDelete: 'CASCADE'
     })
-    @JoinColumn({ name: 'product_id' })
+    @JoinColumn({name: 'product_id'})
     product!: Product;
 }
 
@@ -91,8 +92,15 @@ export class Order {
     @Column('int')
     totalQuantity!: number;
 
-    @Column('decimal', { precision: 10, scale: 2 })
+    @Column('decimal', {precision: 10, scale: 2})
     cost!: number;
+
+    @Column({
+        type: 'enum',
+        enum: OrderStatus,
+        default: OrderStatus.NEW,
+    })
+    status!: OrderStatus;
 
     @OneToMany(() => OrderItem, (item) => item.order, {
         cascade: true,
@@ -127,10 +135,10 @@ export class OrderItem {
     @Column('int')
     quantity!: number;
 
-    @Column('decimal', { precision: 10, scale: 2 })
+    @Column('decimal', {precision: 10, scale: 2})
     unitAmount!: number;
 
-    @Column('decimal', { precision: 10, scale: 2 })
+    @Column('decimal', {precision: 10, scale: 2})
     totalAmount!: number;
 
     @ManyToOne(() => Order, (order) => order.items)

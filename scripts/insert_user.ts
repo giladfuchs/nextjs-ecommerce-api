@@ -4,10 +4,10 @@ import {User} from "../src/entities";
 import {DB} from "../src/db";
 
 
-export async function CreateUser(name: string, email: string, rawPassword: string) {
+export async function CreateUser(username: string, email: string, rawPassword: string) {
 
-    if (!name || !email || !rawPassword) {
-        console.error('Usage: ts-node scripts/register-user.ts <name> <email> <password>');
+    if (!username || !email || !rawPassword) {
+        console.error('Usage: ts-node scripts/register-user.ts <username> <email> <password>');
         process.exit(1);
     }
 
@@ -22,7 +22,7 @@ export async function CreateUser(name: string, email: string, rawPassword: strin
     const hashedPassword = await bcrypt.hash(rawPassword, 10);
 
     const user = DB.getRepository(User).create({
-        name,
+        username,
         email,
         password: hashedPassword,
     });
@@ -33,10 +33,10 @@ export async function CreateUser(name: string, email: string, rawPassword: strin
     process.exit(0);
 }
 
-const name = 'admin';
+const username = 'admin';
 const email = 'yaarafoodstore@gmail.com';
 const rawPassword = 'yaara';
-CreateUser(name, email, rawPassword,).catch((err) => {
+CreateUser(username, email, rawPassword,).catch((err) => {
     console.error(err);
     process.exit(1);
 });

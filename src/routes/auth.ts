@@ -88,17 +88,24 @@ router.post('/order/status', async (req, res) => {
 
     res.json(order);
 });
+
 router.get('/orders', async (req: Request, res: Response) => {
     try {
-        const orders = await DB.getRepository(Order).find({
-            relations: ['items'], // adjust if your relation is named differently
-            order: {createdAt: 'DESC'},
-        });
+        const orders = await DB.getRepository(Order)
+            .createQueryBuilder('order')
+            .leftJoinAndSelect('order.items', 'items') // adjust relation name if needed
+            .orderBy(`CASE 
+                WHEN order.status = 'new' THEN 1
+                WHEN order.status = 'ready' THEN 2
+                ELSE 3
+            END`, 'ASC')
+            .addOrderBy('order.createdAt', 'DESC')
+            .getMany();
 
         res.json(orders);
     } catch (err) {
         console.error('❌ Failed to fetch orders:', err);
-        res.status(500).json({error: 'Internal Server Error'});
+        res.status(500).json({ error: 'Internal Server Error' });
     }
 });
 router.post('/product/:add_or_id', async (req: Request, res: Response) => {

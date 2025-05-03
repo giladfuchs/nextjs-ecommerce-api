@@ -5,7 +5,7 @@ import { put } from '@vercel/blob';
 import fs from 'fs';
 import path from 'path';
 
-const imagesFolder = path.join(__dirname, 'images');
+const imagesFolder = path.join(__dirname, 'data/images');
 
 async function uploadImages() {
     const files = fs.readdirSync(imagesFolder).filter(file => file.toLowerCase().endsWith('.jpg'));

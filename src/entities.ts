@@ -152,7 +152,7 @@ export class User {
     id!: number;
 
     @Column('varchar')
-    name!: string;
+    username!: string;
 
     @Column('varchar', { unique: true })
     email!: string;

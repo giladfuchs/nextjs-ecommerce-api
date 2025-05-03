@@ -1,5 +1,6 @@
 import {Request, Response, Router} from 'express';
 import bcrypt from "bcrypt";
+import jwt from 'jsonwebtoken';
 
 import {DB} from '../db';
 import {Product, Collection, OrderItem, Order, User} from '../entities';
@@ -63,28 +64,31 @@ router.get('/data', async (req: Request, res: Response) => {
     }
 });
 
-router.post('/login', async (req, res) => {
-    const {username, password} = req.body;
 
-    const user = await DB.getRepository(User).findOneBy({name: username});
+router.post('/login', async (req, res) => {
+    const { username, password } = req.body;
+
+    const user = await DB.getRepository(User).findOneBy({ username });
     if (!user) {
-        return res.status(401).json({error: 'Invalid credentials'});
+        return res.status(401).json({ error: 'Invalid credentials' });
     }
 
     const isMatch = await bcrypt.compare(password, user.password);
     if (!isMatch) {
-        return res.status(401).json({error: 'Invalid credentials'});
+        return res.status(401).json({ error: 'Invalid credentials' });
     }
 
-    // Mock token (you can replace with JWT later)
-    res.cookie('token', 'mock-token', {
-        httpOnly: false,
-        sameSite: 'lax',
-        secure: false,
-        maxAge: 86400000 // 1 day
+    const token = jwt.sign({ userId: user.id, username: user.username }, process.env.JWT_SECRET!, {
+        expiresIn: '8d',
     });
 
-    res.json({message: 'Login successful'});
-});
+    res.cookie('token', token, {
+        httpOnly: false,
+        sameSite: 'lax',
+        secure: process.env.NODE_ENV === 'production',
+        maxAge: 7 * 24 * 60 * 60 * 1000, // 7 days in ms
+    });
 
+    res.json({ message: 'Login successful' });
+});
 export default router;

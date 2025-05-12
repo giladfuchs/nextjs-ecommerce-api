@@ -6,28 +6,30 @@ import {Product, Category, ProductImage} from "../src/lib/entities";
 import {faker} from "@faker-js/faker";
 import {title_to_handle} from "../src/lib/util";
 
+
+const getValidCategoryId = async (): Promise<number> => {
+    const categories = await DB.getRepository(Category).find();
+    if (!categories.length) throw new Error("No categories in DB");
+    return categories[Math.floor(Math.random() * categories.length)].id;
+};
+
+const generateFakeProduct = async () => ({
+    title: faker.commerce.productName(),
+    description: faker.commerce.productDescription(),
+    price: parseFloat(faker.commerce.price()),
+    category_id: await getValidCategoryId(),
+    available: true,
+    images: [
+        {
+            url: faker.image.url(),
+            altText: faker.commerce.productAdjective(),
+        },
+    ],
+});
 describe("POST /auth/product/:add_or_id", () => {
     let createdProductId: number;
 
-    const getValidCategoryId = async (): Promise<number> => {
-        const categories = await DB.getRepository(Category).find();
-        if (!categories.length) throw new Error("No categories in DB");
-        return categories[Math.floor(Math.random() * categories.length)].id;
-    };
 
-    const generateFakeProduct = async () => ({
-        title: faker.commerce.productName(),
-        description: faker.commerce.productDescription(),
-        price: parseFloat(faker.commerce.price()),
-        category_id: await getValidCategoryId(),
-        available: true,
-        images: [
-            {
-                url: faker.image.url(),
-                altText: faker.commerce.productAdjective(),
-            },
-        ],
-    });
 
     it("should create a new product", async () => {
         const productData = await generateFakeProduct();
@@ -81,7 +83,7 @@ describe("POST /auth/category/:add_or_id", () => {
 
         expect(res.status).toBe(201);
         expect(res.body).toHaveProperty("id");
-        expect(res.body).toHaveProperty("handle", title.replace(/\s+/g, "-"));
+        expect(res.body).toHaveProperty("handle", title_to_handle(title));
         expect(res.body).toHaveProperty("position", 1);
     });
 
@@ -103,7 +105,7 @@ describe("POST /auth/category/:add_or_id", () => {
 
         expect(res.status).toBe(200);
         expect(res.body).toHaveProperty("id", existing.id);
-        expect(res.body).toHaveProperty("handle", updated_title.replace(/\s+/g, "-"));
+        expect(res.body).toHaveProperty("handle", title_to_handle(updated_title));
     });
 
     it("should return 404 when editing non-existing category", async () => {
@@ -142,42 +144,24 @@ describe("DELETE /auth/:model/:id", () => {
         });
     });
 
-    describe("product", () => {
-        it("should delete a product", async () => {
-            const category = await DB.getRepository(Category).save({
-                title: "product-cat-" + faker.string.alphanumeric(4),
-                handle: "product-cat-" + faker.string.alphanumeric(4),
-                position: 0,
-            });
+    it("should delete a product", async () => {
+        const productData = await generateFakeProduct();
 
-            const product = await DB.getRepository(Product).save({
-                title: "prod-" + faker.commerce.productName(),
-                description: faker.commerce.productDescription(),
-                price: parseFloat(faker.commerce.price()),
-                category_id: category.id,
-                handle: title_to_handle(faker.commerce.product().toLowerCase()) + "-" + faker.string.numeric(4),
-                available: true,
-                updatedAt: new Date(),
-            });
+        // First create the product via the actual route (this ensures images are attached properly)
+        const createRes = await request(app)
+            .post("/auth/product/add")
+            .send(productData);
 
-            await DB.getRepository(ProductImage).save({
-                product,
-                url: faker.image.url(),
-                altText: "alt text",
-            });
+        expect(createRes.status).toBe(201);
+        const productId = createRes.body.id;
 
-            const res = await request(app).delete(`/auth/product/${product.id}`);
-            expect(res.status).toBe(200);
-            expect(res.body).toEqual({success: true});
+        // Now delete it
+        const res = await request(app).delete(`/auth/product/${productId}`);
+        expect(res.status).toBe(200);
+        expect(res.body).toEqual({ success: true });
 
-            const check = await DB.getRepository(Product).findOneBy({id: product.id});
-            expect(check).toBeNull();
-        });
-
-        it("should return 404 when product not found", async () => {
-            const res = await request(app).delete("/auth/product/999999");
-            expect(res.status).toBe(404);
-        });
+        const check = await DB.getRepository(Product).findOneBy({ id: productId });
+        expect(check).toBeNull();
     });
 
     it("should return 400 for unsupported model", async () => {

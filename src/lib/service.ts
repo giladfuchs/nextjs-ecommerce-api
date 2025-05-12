@@ -45,7 +45,6 @@ export function authMiddleware(
 ) {
     if (process.env.NODE_ENV === "test") {
         // Automatically authorize in test environment
-        (req as any).user = {userId: 1, username: "test-user"};
         return next();
     }
 

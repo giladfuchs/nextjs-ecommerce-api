@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "tsx src/dev.ts",
     "nodemon": "nodemon --exec tsx src/dev.ts",
+    "debug:dev": "npx --node-arg=--inspect-brk tsx src/dev.ts",
     "debug": "node --inspect-brk node_modules/.bin/tsx scripts/insert_data.ts",
     "build": "tsc",
     "start": "node dist/index.js",

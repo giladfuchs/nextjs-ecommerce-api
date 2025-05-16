@@ -89,7 +89,14 @@ router.post(
       let product;
 
       if (add_or_id === "add") {
-        product = productRepo.create({ ...productData, images });
+        const newImages = images.map((img, position) =>
+          imageRepo.create({
+            ...img,
+            position,
+          }),
+        );
+
+        product = productRepo.create({ ...productData, images: newImages });
         product = await productRepo.save(product);
       } else {
         product = await findOrThrow(ModelType.product, Number(add_or_id), [
@@ -97,16 +104,15 @@ router.post(
         ]);
         Object.assign(product, productData);
 
-        // Important: delete existing images BEFORE setting new ones
         await imageRepo.delete({ product });
 
-        const newImages = images.map((img) =>
-          imageRepo.create({ product, url: img.url, altText: img.altText }),
+        product.images = images.map((img, position) =>
+          imageRepo.create({
+            product,
+            ...img,
+            position,
+          }),
         );
-
-        // Set images BEFORE save so `beforeUpdate` sees it
-        product.images = newImages;
-
         product = await productRepo.save(product);
       }
 

@@ -2,7 +2,7 @@ import "reflect-metadata";
 import request from "supertest";
 import app from "./test-app";
 import { DB } from "../src/lib/db";
-import { Product, Category } from "../src/lib/entities";
+import { Product } from "../src/lib/entities";
 import { faker } from "@faker-js/faker";
 
 describe("POST /checkout", () => {

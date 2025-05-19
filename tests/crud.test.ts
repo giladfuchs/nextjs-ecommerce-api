@@ -2,7 +2,7 @@ import "reflect-metadata";
 import request from "supertest";
 import app from "./test-app";
 import { DB } from "../src/lib/db";
-import { Product, Category, ProductImage } from "../src/lib/entities";
+import { Product, Category } from "../src/lib/entities";
 import { faker } from "@faker-js/faker";
 import { title_to_handle } from "../src/lib/util";
 

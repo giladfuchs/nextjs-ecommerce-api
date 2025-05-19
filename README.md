@@ -97,6 +97,4 @@ WHATSAPP_NUMBER=+1234567890
 
 ```
 
-## 📄 License
-
-This project is licensed under the [MIT License](./LICENSE).
+ ---
